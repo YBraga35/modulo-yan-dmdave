@@ -1,0 +1,1830 @@
+{
+  "name": "Deva",
+  "type": "npc",
+  "flags": {
+    "plutonium": {
+      "page": "bestiary.html",
+      "source": "MM",
+      "hash": "deva_mm"
+    },
+    "monks-little-details": {
+      "sound-effect": "https://5etools-mirror-2.github.io/audio/bestiary/deva.mp3"
+    },
+    "core": {
+      "sourceId": "Actor.h5ErYY5yPSgKWPE9"
+    }
+  },
+  "_id": "h5ErYY5yPSgKWPE9",
+  "img": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Deva.webp",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "con": {
+        "value": 18,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "int": {
+        "value": 17,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "wis": {
+        "value": 20,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "cha": {
+        "value": 20,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": "0"
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": 90,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 120,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "ac": {
+        "flat": 17,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 136,
+        "max": 136,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "16d8 + 64"
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--1\"><div class=\"float-clear\"></div><div><div class=\"rd__wrp-image relative\">\n\t\t\t<a href=\"https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Deva.webp\" target=\"_blank\" rel=\"noopener noreferrer\">\n\t\t\t\t<img class=\"rd__image\" src=\"https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Deva.webp\" />\n\t\t\t</a>\n\t\t</div></div></div><div class=\"rd__b  rd__b--1\"><div class=\"rd__b  rd__b--2\"><p>An angel is a celestial agent sent forth into the planes to further its god's agenda for weal or woe. Its sublime beauty and presence can drive awestruck onlookers to their knees. Yet angels are destroyers too, and their appearance portends doom as often as it signals hope.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Shards of the Divine.</span></span> <p>Angels are formed from the astral essence of benevolent gods and are thus divine beings of great power and foresight.</p><div class=\"rd__spc-inline-post\"></div><p>Angels act out the will of their gods with tireless devotion. Even chaotic good deities command lawful good angels, knowing that the angels' dedication to order best allows them to fulfill divine commands. An angel follows a single driving purpose, as decreed by its deity. However, an angel is incapable of following commands that stray from the path of law and good.</p><p>An angel slays evil creatures without remorse. As the embodiment of law and good, an angel is almost never mistaken in its judgments. This quality can create a sense of superiority in an angel, a sense that comes to the fore when an angel's task conflicts with the goals of another creature. The angel never acquiesces or gives way. When an angel is sent to aid mortals, it is sent not to serve but to command. The gods of good therefore send their angels among mortals only in response to the most dire circumstances.</p></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Fallen Angels.</span></span> <p>An angel's moral compass grants it a sense of infallibility that can sometimes spell its undoing. Angels are usually too wise to fall for a simple deception, but sometimes pride can lead one to commit an evil act. Whether intentional or accidental, such an act is a permanent stain that marks the angel as an outcast. Fallen angels retain their power but lose their connection to the deities from which they were made. Most fallen angels take their banishment personally, rebelling against the powers they served by seeking rulership over a section of the Abyss or a place among other fallen in the hierarchy of the Nine Hells. Zariel, the ruler of the first layer of the Nine Hells, is such a creature. Rather than rebel, some fallen angels resign themselves to an isolated existence on the Material Plane, living in disguise as simple hermits. If they are redeemed, they can become powerful allies dedicated to justice and compassionate service.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Immortal Nature.</span></span> <p>An angel doesn't require food, drink, or sleep.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"4\"> <span class=\"entry-title-inner\">Deva.</span></span> <p>Devas are angels that act as divine messengers or agents to the Material Plane, the Shadowfell, and the Feywild and that can assume a form appropriate to the realm they are sent to.</p><div class=\"rd__spc-inline-post\"></div><p>Legend tells of angels that take mortal form for years, lending aid, hope, and courage to goodhearted folk. A deva can take any shape, although it prefers to appear to mortals as an innocuous humanoid or animal. When circumstances require that it cast off its guise, a deva is a beautiful humanoid-like creature with silvery skin. Its hair and eyes gleam with an unearthly luster, and large feathery wings unfurl from its shoulder blades.</p></div></div></div>",
+        "public": ""
+      },
+      "alignment": "lawful good",
+      "race": null,
+      "type": {
+        "value": "celestial",
+        "subtype": ""
+      },
+      "environment": "",
+      "cr": 10,
+      "spellLevel": 0,
+      "source": {
+        "book": "MM",
+        "page": "16",
+        "custom": "",
+        "license": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "bypasses": [
+          "mgc"
+        ],
+        "value": [
+          "radiant",
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "frightened"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "aarakocra",
+          "abyssal",
+          "aquan",
+          "auran",
+          "celestial",
+          "deep",
+          "draconic",
+          "druidic",
+          "dwarvish",
+          "elvish",
+          "giant",
+          "gith",
+          "gnomish",
+          "goblin",
+          "gnoll",
+          "halfling",
+          "ignan",
+          "infernal",
+          "orc",
+          "primordial",
+          "sylvan",
+          "terran",
+          "cant",
+          "undercommon"
+        ],
+        "custom": "telepathy 120 ft."
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Deva",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/dnd5e/tokens/celestial/Deva.webp",
+      "scaleX": 3,
+      "scaleY": 3,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": "skills.prc.passive"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 120,
+      "angle": 360,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "Xu0h0AHzV3U9imJD",
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "16",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The deva makes two melee attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "MM",
+          "hash": "multiattack_deva_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770220362,
+        "modifiedTime": 1722770220362,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!h5ErYY5yPSgKWPE9.Xu0h0AHzV3U9imJD"
+    },
+    {
+      "system": {
+        "type": {
+          "value": "simpleM",
+          "baseItem": "mace"
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]]{+8} to hit, reach 5 ft., one target. <i>Hit:</i> 7 ([[/damage 1d6 + 4 type=bludgeoning]]) damage plus 18 ([[/damage 4d8 type=radiant]]) damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "16",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": 4,
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6  + @mod",
+              "bludgeoning"
+            ],
+            [
+              "4d8",
+              "radiant"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "properties": [],
+        "proficient": 1,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "crewed": false,
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "summons": {
+          "match": {
+            "attacks": false,
+            "proficiency": false,
+            "saves": false
+          },
+          "profiles": [],
+          "bonuses": {},
+          "prompt": true
+        },
+        "magicalBonus": null
+      },
+      "_id": "7GV3tNzfFOv2slhe",
+      "name": "Mace",
+      "type": "weapon",
+      "img": "icons/weapons/maces/mace-flanged-steel.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "MM",
+          "hash": "mace_deva_mm_mm"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770220403,
+        "modifiedTime": 1722770220403,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!h5ErYY5yPSgKWPE9.7GV3tNzfFOv2slhe"
+    },
+    {
+      "_id": "MAW3Gyfu7q3NqSVX",
+      "name": "Healing Touch",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "16",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The deva touches another creature. The target magically regains 20 ([[/r 4d8 + 2]]) hit points and is freed from any curse, disease, poison, blindness, or deafness.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/light/hand-sparks-smoke-teal.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "MM",
+          "hash": "healing%20touch%20(3%2fday)_deva_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770220427,
+        "modifiedTime": 1722770220427,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!h5ErYY5yPSgKWPE9.MAW3Gyfu7q3NqSVX"
+    },
+    {
+      "_id": "u6oA0S617WI2YJeW",
+      "name": "Change Shape",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "16",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The deva magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the deva's choice).</p><div class=\"rd__spc-inline-post\"></div><p>In a new form, the deva retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks.</p></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "MM",
+          "hash": "change%20shape_deva_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770220460,
+        "modifiedTime": 1722770220460,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!h5ErYY5yPSgKWPE9.u6oA0S617WI2YJeW"
+    },
+    {
+      "_id": "ErEVHhaTyKdSZ8eA",
+      "name": "Angelic Weapons",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "16",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The deva's weapon attacks are magical. When the deva hits with any weapon, the weapon deals an extra [[/r 4d8]] radiant damage (included in the attack).</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d8",
+              "radiant"
+            ]
+          ],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/weapons/crossbows/crossbow-ornamental-winged.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "MM",
+          "hash": "angelic%20weapons_deva_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770220502,
+        "modifiedTime": 1722770220502,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!h5ErYY5yPSgKWPE9.ErEVHhaTyKdSZ8eA"
+    },
+    {
+      "_id": "JVkwI06luz8uBL9e",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "16",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The deva has advantage on saving throws against spells and other magical effects.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "MM",
+          "hash": "magic%20resistance_deva_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770220523,
+        "modifiedTime": 1722770220523,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!h5ErYY5yPSgKWPE9.JVkwI06luz8uBL9e"
+    },
+    {
+      "name": "Commune",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "223",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.</p><div class=\"rd__spc-inline-post\"></div><p>Divine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer instead.</p><p>If you cast the spell two or more times before finishing your next long rest, there is a cumulative [[/r 1d100]]{25 percent} chance for each casting after the first that you get no answer. The DM makes this roll in secret.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 5,
+        "school": "div",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "ritual"
+        ],
+        "materials": {
+          "value": "incense and a vial of holy or unholy water",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 0,
+          "units": "self",
+          "type": "self",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "self",
+          "long": null
+        },
+        "activation": {
+          "type": "minute",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "cha",
+          "ability": ""
+        },
+        "ability": "cha",
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day",
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/sundries/lights/candles-lit-red-evil.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "commune_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "PlbLA6I6oeL55ial",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770220564,
+        "modifiedTime": 1722770220564,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!h5ErYY5yPSgKWPE9.PlbLA6I6oeL55ial"
+    },
+    {
+      "name": "Raise Dead",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "270",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You return a dead creature you touch to life, provided that it has been dead no longer than 10 days. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.</p><div class=\"rd__spc-inline-post\"></div><p>This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.</p><p>This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.</p><p>Coming back from the dead is an ordeal. The target takes a −4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.</p></div>",
+          "chat": ""
+        },
+        "actionType": "heal",
+        "level": 5,
+        "school": "nec",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a diamond worth at least 500 gp, which the spell consumes",
+          "consumed": true,
+          "cost": 500,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "spec",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "touch",
+          "long": null
+        },
+        "activation": {
+          "type": "hour",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "1",
+              "healing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "cha",
+          "ability": ""
+        },
+        "ability": "cha",
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day",
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "raise%20dead_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "Nrm2nSoD0lmYpPC1",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770220610,
+        "modifiedTime": 1722770220610,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!h5ErYY5yPSgKWPE9.Nrm2nSoD0lmYpPC1"
+    },
+    {
+      "name": "Detect Evil and Good",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "231",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated.</p><div class=\"rd__spc-inline-post\"></div><p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 1,
+        "school": "div",
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 30,
+          "units": "ft",
+          "type": "radius",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "self",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "cha",
+          "ability": ""
+        },
+        "ability": "cha",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/time/day-night-sun-moon.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "detect%20evil%20and%20good_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "5a3YJJy17PjKumcp",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770220644,
+        "modifiedTime": 1722770220644,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!h5ErYY5yPSgKWPE9.5a3YJJy17PjKumcp"
+    },
+    {
+      "_id": "aJvIFLgQovRrr7hx",
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "16",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Innate Spellcasting.</span></span> <p>The deva's spellcasting ability is Charisma (spell save DC <span class=\"rd__dc\">17</span>). The deva can innately cast the following spells, requiring only verbal components:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.h5ErYY5yPSgKWPE9.Item.5a3YJJy17PjKumcp]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.h5ErYY5yPSgKWPE9.Item.PlbLA6I6oeL55ial], @UUID[Actor.h5ErYY5yPSgKWPE9.Item.Nrm2nSoD0lmYpPC1]</p></li></ul></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "prompt": true
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "actionType": null,
+        "formula": "",
+        "summons": null,
+        "properties": [],
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/unholy/orb-smoking-green.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterSpellcasting",
+          "source": "MM",
+          "hash": "innate%20spellcasting_deva_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770220673,
+        "modifiedTime": 1722770220673,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!h5ErYY5yPSgKWPE9.aJvIFLgQovRrr7hx"
+    }
+  ],
+  "effects": [],
+  "folder": "vaFS1hgnOVZiECJb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "cm8ahpcp3la1d2oY": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "11.315",
+    "createdTime": 1722770220226,
+    "modifiedTime": 1722771186468,
+    "lastModifiedBy": "cm8ahpcp3la1d2oY"
+  },
+  "_key": "!actors!h5ErYY5yPSgKWPE9"
+}

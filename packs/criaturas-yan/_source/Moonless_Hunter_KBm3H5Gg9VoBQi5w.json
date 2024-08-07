@@ -1,0 +1,1834 @@
+{
+  "name": "Moonless Hunter",
+  "type": "npc",
+  "flags": {
+    "plutonium": {
+      "page": "bestiary.html",
+      "source": "ToB3",
+      "hash": "moonless%20hunter_tob3"
+    }
+  },
+  "_id": "KBm3H5Gg9VoBQi5w",
+  "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/Moonless Hunter.webp",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "con": {
+        "value": 16,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 2,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": "0"
+      },
+      "movement": {
+        "burrow": null,
+        "climb": 30,
+        "fly": null,
+        "swim": null,
+        "walk": 40,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "ac": {
+        "flat": null,
+        "calc": "default"
+      },
+      "hp": {
+        "value": 75,
+        "max": 75,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "10d8 + 30"
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--1\"><div class=\"float-clear\"></div><div><div class=\"rd__wrp-image relative\">\n\t\t\t<a href=\"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/Moonless Hunter.webp\" target=\"_blank\" rel=\"noopener noreferrer\">\n\t\t\t\t<img class=\"rd__image\" src=\"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/Moonless Hunter.webp\" />\n\t\t\t</a>\n\t\t</div></div></div><div class=\"rd__b  rd__b--1\"><div class=\"rd__b  rd__b--2\"><div class=\"rd__quote\"><p class=\"rd__quote-line \">“<i>This hulking, bipedal creature stalks the beach, its yellow eyes glowing. Water cascades down its back.</i>”</p></div><p>A dripping wet figure, the moonless hunter prowls coastal roads and shorelines, never straying far from the sea yet loathe to go too near it. This fey horror stalks seaside communities and small islands for prey</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Creation of the Dark Fey.</span></span> <p>A moonless hunter is created from the soul of an evil individual that drowned at sea, and some believe that those drowned by fey trickery are most likely to become moonless hunters. The taint of death still lingers in these products of dark fey magic.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Devours Dreams.</span></span> <p>The moonless hunter feeds on fear and mortal dreams. Stealing into homes on dark nights, the moonless hunter consumes sweet dreams and nightmares alike. On occasion it will snack on the dreamer as well, overcome by especially delicious dreams.</p><div class=\"rd__spc-inline-post\"></div></div></div></div>",
+        "public": ""
+      },
+      "alignment": "neutral evil",
+      "race": null,
+      "type": {
+        "value": "fey",
+        "subtype": ""
+      },
+      "environment": "Coastal, Farmland",
+      "cr": 4,
+      "spellLevel": 0,
+      "source": {
+        "book": "ToB3",
+        "page": "275",
+        "custom": "",
+        "license": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "bypasses": [
+          "mgc"
+        ],
+        "value": [
+          "necrotic",
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "sylvan"
+        ],
+        "custom": "telepathy 30 ft."
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Moonless Hunter",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/token/Moonless Hunter.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": "skills.prc.passive"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 60,
+      "angle": 360,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "OMIP0LRivPb2qYhz",
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "275",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The moonless hunter uses Briny Embrace, if it has a creature &amp;Reference[condition=grappled]. It then makes two Claw attacks or one Bite attack and one Claw attack.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "ToB3",
+          "hash": "multiattack_moonless%20hunter_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772987879,
+        "modifiedTime": 1722772987879,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!KBm3H5Gg9VoBQi5w.OMIP0LRivPb2qYhz"
+    },
+    {
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d8  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "275",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+6]]{+6} to hit, reach 5 ft., one target. <i>Hit:</i> 13 ([[/damage 2d8 + 4 type=piercing]]) damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "proficient": 1,
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "value": 1,
+          "type": "creature",
+          "prompt": true,
+          "width": null,
+          "units": ""
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "properties": [],
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": 0,
+        "equipped": true,
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "summons": null,
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "magicalBonus": null
+      },
+      "_id": "ZKPYyC1MNtOYNFmA",
+      "name": "Bite",
+      "type": "weapon",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "ToB3",
+          "hash": "bite_moonless%20hunter_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772987927,
+        "modifiedTime": 1722772987927,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!KBm3H5Gg9VoBQi5w.ZKPYyC1MNtOYNFmA"
+    },
+    {
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d6  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "275",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+6]]{+6} to hit, reach 5 ft., one target. <i>Hit:</i> 11 ([[/damage 2d6 + 4 type=slashing]]) damage, and the target is &amp;Reference[condition=grappled] (escape DC <span class=\"rd__dc\">14</span>). The moonless hunter has two claws, each of which can grapple only one target.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "proficient": 1,
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "value": 1,
+          "type": "creature",
+          "prompt": true,
+          "width": null,
+          "units": ""
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "properties": [],
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": 0,
+        "equipped": true,
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "summons": null,
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "magicalBonus": null
+      },
+      "_id": "Pe7MoIDwGRoMkpaD",
+      "name": "Claw",
+      "type": "weapon",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "ToB3",
+          "hash": "claw_moonless%20hunter_tob3_tob3"
+        }
+      },
+      "effects": [
+        {
+          "name": "Claw",
+          "icon": "icons/skills/melee/blood-slash-foam-red.webp",
+          "changes": [
+            {
+              "key": "StatusEffect",
+              "mode": 0,
+              "value": "Convenient Effect: Grappled",
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "claw"
+            }
+          },
+          "_id": "UYUQx8XYNkUSDG6P",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!KBm3H5Gg9VoBQi5w.Pe7MoIDwGRoMkpaD.UYUQx8XYNkUSDG6P"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772987979,
+        "modifiedTime": 1722772987979,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!KBm3H5Gg9VoBQi5w.Pe7MoIDwGRoMkpaD"
+    },
+    {
+      "_id": "RchpnrVzp8j4bf06",
+      "name": "Briny Embrace",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "275",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The moonless hunter fills the lungs of one creature &amp;Reference[condition=grappled] by it with seawater. The creature must succeed on a [[/save ability=constitution dc=14]] saving throw or begin &amp;Reference[rule=suffocating]. A &amp;Reference[rule=suffocating] but conscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The effect also ends if the creature escapes the grapple.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": 14,
+          "scaling": "dex"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "ToB3",
+          "hash": "briny%20embrace_moonless%20hunter_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772988020,
+        "modifiedTime": 1722772988020,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!KBm3H5Gg9VoBQi5w.RchpnrVzp8j4bf06"
+    },
+    {
+      "_id": "bwESCqgMjscVMhwI",
+      "name": "Whispered Terrors",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "275",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The moonless hunter bombards the minds of up to three creatures it can see within 60 feet of it with nightmares. Each target must make a [[/save ability=wisdom dc=14]] saving throw. On a failure, a creature takes 18 ([[/damage 4d8 type=psychic]]) damage and is &amp;Reference[condition=frightened] until the end of its next turn. On a success, a creature takes half the damage and isn't &amp;Reference[condition=frightened]. If a creature fails the saving throw by 5 or more, it also suffers @table[short-term madness].</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d8",
+              "psychic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": 14,
+          "scaling": "dex"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "value": 5,
+          "charged": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "flags": {
+        "midiProperties": {
+          "nodam": true
+        },
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "ToB3",
+          "hash": "whispered%20terrors%20(recharge%205%e2%80%936)_moonless%20hunter_tob3_tob3"
+        }
+      },
+      "effects": [
+        {
+          "name": "Whispered Terrors (Recharge 5–6)",
+          "icon": "modules/plutonium/media/icon/mailed-fist.svg",
+          "changes": [
+            {
+              "key": "StatusEffect",
+              "mode": 0,
+              "value": "Convenient Effect: Frightened",
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "specialDuration": [
+                "turnEndSource"
+              ]
+            },
+            "plutonium": {
+              "dedupeId": "whispered-terrors-recharge-56"
+            }
+          },
+          "_id": "J4oLoD5SasJ8ACYC",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!KBm3H5Gg9VoBQi5w.bwESCqgMjscVMhwI.J4oLoD5SasJ8ACYC"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772988050,
+        "modifiedTime": 1722772988050,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!KBm3H5Gg9VoBQi5w.bwESCqgMjscVMhwI"
+    },
+    {
+      "_id": "yQgZOnX81Ki8ovob",
+      "name": "Deathly Origins",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "275",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The moonless hunter can be turned and can take damage from holy water as if it was Undead.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "deathly%20origins_moonless%20hunter_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772988088,
+        "modifiedTime": 1722772988088,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!KBm3H5Gg9VoBQi5w.yQgZOnX81Ki8ovob"
+    },
+    {
+      "_id": "w3mMg2cSvYqWvE08",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "275",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The moonless hunter has advantage on saving throws against spells and other magical effects.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "magic%20resistance_moonless%20hunter_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772988120,
+        "modifiedTime": 1722772988120,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!KBm3H5Gg9VoBQi5w.w3mMg2cSvYqWvE08"
+    },
+    {
+      "_id": "mrcj7VmUUksHETFD",
+      "name": "Nightmare Leap",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "275",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Once on its turn, the moonless hunter can use half its movement to step magically into the dreams of a sleeping creature within 5 feet of it. It emerges from the dreams of another sleeping creature within 1 mile of the first sleeper, appearing in an unoccupied space within 5 feet of the second sleeper. Each sleeper then must succeed on a [[/save ability=wisdom dc=14]] saving throw or suffer one level of &amp;Reference[condition=exhaustion], as the resulting nightmares prevent restful sleep. A creature that fails this saving throw by 5 or more also suffers @table[long-term madness].</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "ability": "wis",
+          "dc": 14,
+          "scaling": "dex"
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "nightmare%20leap_moonless%20hunter_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772988149,
+        "modifiedTime": 1722772988149,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!KBm3H5Gg9VoBQi5w.mrcj7VmUUksHETFD"
+    },
+    {
+      "_id": "nP9dFxQRVWBzrsiA",
+      "name": "Spider Climb",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "275",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The moonless hunter can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/creatures/invertebrates/spider-beetle-runed-green.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "spider%20climb_moonless%20hunter_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772988185,
+        "modifiedTime": 1722772988185,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!KBm3H5Gg9VoBQi5w.nP9dFxQRVWBzrsiA"
+    },
+    {
+      "_id": "DbTG0o0TCSAf4w4O",
+      "name": "Sunlight Sensitivity",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "275",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>While in sunlight, the moonless hunter has disadvantage on attack rolls, as well as on Wisdom (&amp;Reference[skill=Perception]) checks that rely on sight.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/nature/root-vine-thorned-fire-purple.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "sunlight%20sensitivity_moonless%20hunter_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772988219,
+        "modifiedTime": 1722772988219,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!KBm3H5Gg9VoBQi5w.DbTG0o0TCSAf4w4O"
+    }
+  ],
+  "effects": [],
+  "folder": "ebbJK8QMDBwNWumZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "cm8ahpcp3la1d2oY": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "11.315",
+    "createdTime": 1722772987559,
+    "modifiedTime": 1722774733060,
+    "lastModifiedBy": "cm8ahpcp3la1d2oY"
+  },
+  "_key": "!actors!KBm3H5Gg9VoBQi5w"
+}

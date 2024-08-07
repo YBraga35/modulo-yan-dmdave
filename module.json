@@ -1,0 +1,104 @@
+{
+  "id": "modulo-yan-dmdave",
+  "title": "Yan Modulo",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "gambits-premades",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "items-with-spells-5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tidy5e-sheet",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "babonus",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "enhancedcombathud-dnd5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "plutonium-addon-automation",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "polyglot",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "vision-5e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "DmYan",
+      "email": "dungeonmasteryan@gmail.com",
+      "url": "https://github.com/YBraga35/",
+      "discord": "yan_braga35"
+    }
+  ],
+  "packs": [
+    {
+      "name": "aventuras-dmdave",
+      "label": "Aventuras-DmDave",
+      "path": "packs/adventures.db",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "criaturas-yan",
+      "label": "Criaturas Yan",
+      "path": "packs/criaturas-yan",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Yan Compendium",
+      "sorting": "a",
+      "color": "#004080",
+      "packs": [],
+      "folders": []
+     }
+  ],
+  "manifest": "https://github.com/YBraga35/modulo-yan-dmdave/raw/main/module.json",
+  "download": "https://github.com/YBraga35/modulo-yan-dmdave/archive/refs/heads/main.zip"
+}

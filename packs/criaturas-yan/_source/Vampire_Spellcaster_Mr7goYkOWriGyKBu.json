@@ -1,0 +1,4801 @@
+{
+  "name": "Vampire Spellcaster",
+  "type": "npc",
+  "flags": {
+    "plutonium": {
+      "page": "bestiary.html",
+      "source": "MM",
+      "hash": "vampire%20spellcaster_mm"
+    },
+    "monks-little-details": {
+      "sound-effect": "https://5etools-mirror-2.github.io/audio/bestiary/vampire-spellcaster.mp3"
+    }
+  },
+  "_id": "Mr7goYkOWriGyKBu",
+  "img": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Vampire.webp",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "con": {
+        "value": 18,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "int": {
+        "value": 17,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "cha": {
+        "value": 18,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": null
+      },
+      "spell2": {
+        "value": 3,
+        "override": null
+      },
+      "spell3": {
+        "value": 3,
+        "override": null
+      },
+      "spell4": {
+        "value": 3,
+        "override": null
+      },
+      "spell5": {
+        "value": 1,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": "0"
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 120,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "ac": {
+        "flat": 16,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 144,
+        "max": 144,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "17d8 + 68"
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--1\"><div class=\"float-clear\"></div><div><div class=\"rd__wrp-image relative\">\n\t\t\t<a href=\"https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Vampire.webp\" target=\"_blank\" rel=\"noopener noreferrer\">\n\t\t\t\t<img class=\"rd__image\" src=\"https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/MM/Vampire.webp\" />\n\t\t\t</a>\n\t\t</div></div></div><div class=\"rd__b  rd__b--1\"><div class=\"rd__b  rd__b--2\"><p>Awakened to an endless night, vampires hunger for the life they have lost and sate that hunger by drinking the blood of the living. Vampires abhor sunlight, for its touch burns them. They never cast shadows or reflections, and any vampire wishing to move unnoticed among the living keeps to the darkness and far from reflective surfaces.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Dark Desires.</span></span> <p>Whether or not a vampire retains any memories from its former life, its emotional attachments wither as once-pure feelings become twisted by undeath. Love turns into hungry obsession, while friendship becomes bitter jealousy. In place of emotion, vampires pursue physical symbols of what they crave, so that a vampire seeking love might fixate on a young beauty. A child might become an object of fascination for a vampire obsessed with youth and potential. Others surround themselves with art, books, or sinister items such as torture devices or trophies from creatures they have killed.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Born from Death.</span></span> <p>Most of a vampire's victims become vampire spawn-ravenous creatures with a vampire's hunger for blood, but under the control of the vampire that created them. If a true vampire allows a spawn to draw blood from its own body, the spawn transforms into a true vampire no longer under its master's control. Few vampires are willing to relinquish their control in this manner. Vampire spawn become free-willed when their creator dies.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Chained to the Grave.</span></span> <p>Every vampire remains bound to its coffin, crypt, or grave site, where it must rest by day. If a vampire didn't receive a formal burial, it must lie beneath a foot of earth at the place of its transition to undeath. A vampire can move its place of burial by transporting its coffin or a significant amount of grave dirt to another location. Some vampires set up multiple resting places this way.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"4\"> <span class=\"entry-title-inner\">Undead Nature.</span></span> <p>Neither a vampire nor a vampire spawn requires air.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"5\"> <span class=\"entry-title-inner\">A Vampire's Lair.</span></span> <p>A vampire chooses a grand yet defensible location for its lair, such as a castle, fortified manor, or walled abbey. It hides its coffin in an underground crypt or vault guarded by vampire spawn or other loyal creatures of the night.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b-special rd__b-inset \"><span class=\"rd__h rd__h--2-inset\" data-title-index=\"6\"><h4 class=\"entry-title-inner\">Player Characters as Vampires</h4><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable no-select no-print lst-is-exporting-image__hidden\" data-rd-h-special-toggle-button=\"true\" title=\"Toggle Visibility (CTRL to Toggle All)\">[–]</span></span></span><p>The game statistics of a player character transformed into a vampire spawn and then a vampire don't change, except that the character's Strength, Dexterity, and Constitution scores become 18 if they aren't higher. In addition, the character gains the vampire's damage resistances, &amp;Reference[rule=darkvision], traits, and actions. Attack and damage rolls for the vampire's attacks are based on Strength.</p><p>The save DC for Charm is 8 + the vampire's proficiency bonus + the vampire's Charisma modifier. The character's alignment becomes lawful evil, and the DM might take control of the character until the vampirism is reversed with a @spell[wish] spell or the character is killed and brought back to life.</p><div class=\"float-clear\"></div></div><div class=\"rd__b-special rd__b-inset \"><span class=\"rd__h rd__h--2-inset\" data-title-index=\"7\"><h4 class=\"entry-title-inner\">Strahd von Zarovich</h4><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable no-select no-print lst-is-exporting-image__hidden\" data-rd-h-special-toggle-button=\"true\" title=\"Toggle Visibility (CTRL to Toggle All)\">[–]</span></span></span><p>A brilliant thinker and capable warrior in life, Strahd von Zarovich fought in countless battles for his people. When war and killing finally stripped him of his youth and strength, he settled in the remote valley of Barovia and built a castle on a towering pinnacle, from which he could survey his lands. His brother Sergei came to live with him in Castle Ravenloft, becoming Strahd's adviser and constant companion.</p><p>In his brother, Strahd saw everything he had lost. Sergei was handsome and young, while Strahd had become old and scarred. Resentment colored their relationship, eventually turning into hatred. Strahd's beloved, Tatyana, spurned him for Sergei, whom she pledged to marry.</p><p>In a desperate attempt to win Tatyana's heart, Strahd forged a pact with dark powers that made him immortal. At the wedding of Sergei and Tatyana, he confronted his brother and killed him. Tatyana fled and flung herself from Ravenloft's walls. Strahd's guards, seeing him for a monster, shot him with arrows. But he did not die. He became a vampire-the first vampire, according to many sages.</p><p>In the centuries since his transformation, Strahd's lust for life and youth have only grown. He broods in his dark castle, cursing the living for stealing away what he lost, and never admitting his hand in the tragedy he created.</p><div class=\"float-clear\"></div></div><div class=\"rd__b-special rd__b-inset rd__b-inset--readaloud \"><span class=\"rd__h rd__h--2-inset rd__h--2-inset-no-name\"><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable no-select no-print lst-is-exporting-image__hidden\" data-rd-h-special-toggle-button=\"true\" title=\"Toggle Visibility (CTRL to Toggle All)\">[–]</span></span></span><div class=\"rd__quote\"><p class=\"rd__quote-line rd__quote-line--last\">“<i>I am The Ancient, I am The Land. My beginnings are lost in the darkness of the past. I was the warrior, I was good and just. I thundered across the land like the wrath of a just god, but the war years and the killing years wore down my soul as the wind wears down stone into sand.</i>”</p><p><span class=\"rd__quote-by\">— Count Strahd von Zarovich</span></p></div><div class=\"float-clear\"></div></div></div></div><div class=\"rd__b  rd__b--1\"><div class=\"rd__b  rd__b--2\"><h3 class=\"rd__h rd__h--2\" data-title-index=\"8\"> <span class=\"entry-title-inner\">Regional Effects</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable no-select no-print lst-is-exporting-image__hidden\" data-rd-h-toggle-button=\"true\" title=\"Toggle Visibility (CTRL to Toggle All)\">[–]</span></span></h3> <p>The region surrounding a vampire's lair is warped by the creature's unnatural presence, creating any of the following effects:</p><ul class=\"rd__list\"><li class=\"rd__li \">There's a noticeable increase in the populations of bats, rats, and wolves in the region.</li><li class=\"rd__li \">Plants within 500 feet of the lair wither, and their stems and branches become twisted and thorny.</li><li class=\"rd__li \">Shadows cast within 500 feet of the lair seem abnormally gaunt and sometimes move as though alive.</li><li class=\"rd__li \">A creeping fog clings to the ground within 500 feet of the vampire's lair. The fog occasionally takes eerie forms, such as grasping claws and writhing serpents.</li></ul><p>If the vampire is destroyed, these effects end after [[/r 2d6]] days.</p></div></div>",
+        "public": ""
+      },
+      "alignment": "lawful evil",
+      "race": null,
+      "type": {
+        "value": "undead",
+        "subtype": "shapechanger"
+      },
+      "environment": "Urban",
+      "cr": 15,
+      "spellLevel": 9,
+      "source": {
+        "book": "MM",
+        "page": "298",
+        "custom": "",
+        "license": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 3,
+        "max": 3
+      },
+      "legres": {
+        "value": 3,
+        "max": 3
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "bypasses": [
+          "mgc"
+        ],
+        "value": [
+          "necrotic",
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "the languages it knew in life"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Vampire Spellcaster",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Vampire Spellcaster.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": "skills.prc.passive"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 120,
+      "angle": 360,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "c7R0mf5M65QPuDj2",
+      "name": "Multiattack (Vampire Form Only)",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The vampire makes two attacks, only one of which can be a bite attack.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "MM",
+          "hash": "multiattack%20(vampire%20form%20only)_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770459829,
+        "modifiedTime": 1722770459829,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.c7R0mf5M65QPuDj2"
+    },
+    {
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8  + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+9]]{+9} to hit, reach 5 ft., one creature. <i>Hit:</i> 8 ([[/damage 1d8 + 4 type=bludgeoning]]) damage. Instead of dealing damage, the vampire can grapple the target (escape DC <span class=\"rd__dc\">18</span>).</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "proficient": 1,
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "value": 1,
+          "type": "creature",
+          "prompt": true,
+          "width": null,
+          "units": ""
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "properties": [],
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": 0,
+        "equipped": true,
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "summons": null,
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "magicalBonus": null
+      },
+      "_id": "8AV5NDM8tLpekP8F",
+      "name": "Unarmed Strike (Vampire Form Only)",
+      "type": "weapon",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/equipment/hand/gauntlet-simple-leather-brown-gold.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "MM",
+          "hash": "unarmed%20strike%20(vampire%20form%20only)_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770459892,
+        "modifiedTime": 1722770459892,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.8AV5NDM8tLpekP8F"
+    },
+    {
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6  + @mod",
+              "piercing"
+            ],
+            [
+              "3d6",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+9]]{+9} to hit, reach 5 ft., one willing creature, or a creature that is &amp;Reference[condition=grappled] by the vampire, &amp;Reference[condition=incapacitated], or &amp;Reference[condition=restrained]. <i>Hit:</i> 7 ([[/damage 1d6 + 4 type=piercing]]) damage plus 10 ([[/damage 3d6 type=necrotic]]) damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a @creature[vampire spawn] under the vampire's control.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "proficient": 1,
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "value": 1,
+          "type": "creature",
+          "prompt": true,
+          "width": null,
+          "units": ""
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "properties": [],
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": 0,
+        "equipped": true,
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "summons": null,
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "magicalBonus": null
+      },
+      "_id": "G9RKzBm5yBssZ9k9",
+      "name": "Bite (Bat or Vampire Form Only)",
+      "type": "weapon",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "MM",
+          "hash": "bite%20(bat%20or%20vampire%20form%20only)_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770459986,
+        "modifiedTime": 1722770459986,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.G9RKzBm5yBssZ9k9"
+    },
+    {
+      "_id": "EbrWgGBm0YZSOZm8",
+      "name": "Charm",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a [[/save ability=wisdom dc=17]] saving throw against this magic or be &amp;Reference[condition=charmed] by the vampire. The &amp;Reference[condition=charmed] target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.</p><div class=\"rd__spc-inline-post\"></div><p>Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.</p></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": 17,
+          "scaling": "cha"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/commodities/currency/coin-engraved-sun-smile-copper.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "MM",
+          "hash": "charm_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [
+        {
+          "name": "Charm",
+          "icon": "icons/commodities/currency/coin-engraved-sun-smile-copper.webp",
+          "changes": [
+            {
+              "key": "StatusEffect",
+              "mode": 0,
+              "value": "Convenient Effect: Charmed",
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 86400,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "charm"
+            }
+          },
+          "_id": "q9Yep6AoTjWFy5vz",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!Mr7goYkOWriGyKBu.EbrWgGBm0YZSOZm8.q9Yep6AoTjWFy5vz"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460046,
+        "modifiedTime": 1722770460046,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.EbrWgGBm0YZSOZm8"
+    },
+    {
+      "_id": "gTLtD0OILDsL8GYh",
+      "name": "Children of the Night",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The vampire magically calls [[/r 2d4]] swarms of @creature[swarm of bats||bats] or @creature[swarm of rats||rats], provided that the sun isn't up. While outdoors, the vampire can call [[/r 3d6]] @creature[wolf||wolves] instead. The called creatures arrive in [[/r 1d4]] rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day",
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/creatures/mammals/bats-movement-flying-black.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "MM",
+          "hash": "children%20of%20the%20night%20(1%2fday)_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460104,
+        "modifiedTime": 1722770460104,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.gTLtD0OILDsL8GYh"
+    },
+    {
+      "_id": "DxrXVKZ8kuGL6gux",
+      "name": "Shapechanger",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.</p><div class=\"rd__spc-inline-post\"></div><p>While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.</p><p>While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight.</p></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "MM",
+          "hash": "shapechanger_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460151,
+        "modifiedTime": 1722770460151,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.DxrXVKZ8kuGL6gux"
+    },
+    {
+      "_id": "AqWKe2mBgpZJ61vG",
+      "name": "Legendary Resistance",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>If the vampire fails a saving throw, it can choose to succeed instead.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "special",
+          "condition": "If the vampire fails a saving throw, it can choose to succeed instead.",
+          "cost": null
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legres.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/water/orb-water-bubbles.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "MM",
+          "hash": "legendary%20resistance%20(3%2fday)_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460212,
+        "modifiedTime": 1722770460212,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.AqWKe2mBgpZJ61vG"
+    },
+    {
+      "_id": "K8jYEvhh63vpd66L",
+      "name": "Misty Escape",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling &amp;Reference[condition=unconscious], provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.</p><div class=\"rd__spc-inline-post\"></div><p>While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then &amp;Reference[condition=paralyzed] until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point.</p></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/air/wind-stream-purple.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "MM",
+          "hash": "misty%20escape_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460255,
+        "modifiedTime": 1722770460255,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.K8jYEvhh63vpd66L"
+    },
+    {
+      "_id": "AKyefJR4yi3L6xX8",
+      "name": "Regeneration",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "MM",
+          "hash": "regeneration_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460311,
+        "modifiedTime": 1722770460311,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.AKyefJR4yi3L6xX8"
+    },
+    {
+      "_id": "Kbc2gEYxlLDY06W5",
+      "name": "Spider Climb",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/creatures/invertebrates/spider-beetle-runed-green.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "MM",
+          "hash": "spider%20climb_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460360,
+        "modifiedTime": 1722770460360,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.Kbc2gEYxlLDY06W5"
+    },
+    {
+      "_id": "6kQ8cisU0ywMdLF0",
+      "name": "Vampire Weaknesses",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The vampire has the following flaws:</p><div class=\"rd__spc-inline-post\"></div><p><i>Forbiddance.</i> The vampire can't enter a residence without an invitation from one of the occupants.</p><p><i>Harmed by Running Water.</i> The vampire takes 20 acid damage if it ends its turn in running water.</p><p><i>Stake to the Heart.</i> If a piercing weapon made of wood is driven into the vampire's heart while the vampire is &amp;Reference[condition=incapacitated] in its resting place, the vampire is &amp;Reference[condition=paralyzed] until the stake is removed.</p><p><i>Sunlight Hypersensitivity.</i> The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</p></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/equipment/back/cloak-collared-red-gold.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "MM",
+          "hash": "vampire%20weaknesses_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460407,
+        "modifiedTime": 1722770460407,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.6kQ8cisU0ywMdLF0"
+    },
+    {
+      "_id": "Ak38hEFoDiaPzIr5",
+      "name": "Move",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The vampire moves up to its speed without provoking opportunity attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterLegendary",
+          "source": "MM",
+          "hash": "move_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460474,
+        "modifiedTime": 1722770460474,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.Ak38hEFoDiaPzIr5"
+    },
+    {
+      "_id": "FG05BJpqRjWTEUJ0",
+      "name": "Unarmed Strike",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The vampire makes one unarmed strike.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/equipment/hand/gauntlet-simple-leather-brown-gold.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterLegendary",
+          "source": "MM",
+          "hash": "unarmed%20strike_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460523,
+        "modifiedTime": 1722770460523,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.FG05BJpqRjWTEUJ0"
+    },
+    {
+      "_id": "dxVYrR6pXkLqETFm",
+      "name": "Bite",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The vampire makes one bite attack.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 2,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 2,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterLegendary",
+          "source": "MM",
+          "hash": "bite_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460570,
+        "modifiedTime": 1722770460570,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.dxVYrR6pXkLqETFm"
+    },
+    {
+      "_id": "Kz3sY1yti7ULZ2VR",
+      "name": "Legendary Actions",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p>The vampire spellcaster can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The vampire spellcaster regains spent legendary actions at the start of its turn.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">@UUID[Actor.Mr7goYkOWriGyKBu.Item.Ak38hEFoDiaPzIr5]{Move}</li><li class=\"rd__li \">@UUID[Actor.Mr7goYkOWriGyKBu.Item.FG05BJpqRjWTEUJ0]{Unarmed Strike}</li><li class=\"rd__li \">@UUID[Actor.Mr7goYkOWriGyKBu.Item.dxVYrR6pXkLqETFm]{Bite}</li></ul></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "formula": "",
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/skills/targeting/target-strike-triple-blue.webp",
+      "flags": {
+        "plutonium": {
+          "dedupeId": "legendaryActions"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460618,
+        "modifiedTime": 1722770460618,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.Kz3sY1yti7ULZ2VR"
+    },
+    {
+      "_id": "cOa12ZTuSvd1c7Rh",
+      "name": "Regional Effects",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The region surrounding a vampire's lair is warped by the creature's unnatural presence, creating any of the following effects:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">There's a noticeable increase in the populations of bats, rats, and wolves in the region.</li><li class=\"rd__li \">Plants within 500 feet of the lair wither, and their stems and branches become twisted and thorny.</li><li class=\"rd__li \">Shadows cast within 500 feet of the lair seem abnormally gaunt and sometimes move as though alive.</li><li class=\"rd__li \">A creeping fog clings to the ground within 500 feet of the vampire's lair. The fog occasionally takes eerie forms, such as grasping claws and writhing serpents.</li></ul><p>If the vampire is destroyed, these effects end after [[/r 2d6]] days.</p></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/air/wind-tornado-funnel-damage-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterRegionalEffects",
+          "source": "MM",
+          "hash": "regional%20effects_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460683,
+        "modifiedTime": 1722770460683,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.cOa12ZTuSvd1c7Rh"
+    },
+    {
+      "name": "Mage Hand",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "256",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><div class=\"rd__spc-inline-post\"></div><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 0,
+        "school": "con",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "space",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 30,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/light/orbs-hand-gray.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "mage%20hand_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "LuXn0HdAs8RIGFU0",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460774,
+        "modifiedTime": 1722770460774,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.LuXn0HdAs8RIGFU0"
+    },
+    {
+      "name": "Prestidigitation",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "267",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li><li class=\"rd__li \">You instantaneously light or snuff out a candle, a torch, or a small campfire.</li><li class=\"rd__li \">You instantaneously clean or soil an object no larger than 1 cubic foot.</li><li class=\"rd__li \">You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li><li class=\"rd__li \">You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li><li class=\"rd__li \">You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li></ul><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 0,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 0,
+          "units": "",
+          "type": "",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 10,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/light/hand-sparks-smoke-green.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "prestidigitation_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "rboejizBoDTseJPW",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460866,
+        "modifiedTime": 1722770460866,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.rboejizBoDTseJPW"
+    },
+    {
+      "name": "Ray of Frost",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "271",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes [[/damage 1d8 type=cold]] damage, and its speed is reduced by 10 feet until the start of your next turn.</p><div class=\"rd__spc-inline-post\"></div><p>The spell's damage increases by [[/r 1d8]] when you reach 5th level ([[/damage 2d8]]), 11th level ([[/damage 3d8]]), and 17th level ([[/damage 4d8]]).</p></div>",
+          "chat": ""
+        },
+        "actionType": "rsak",
+        "level": 0,
+        "school": "evo",
+        "properties": [],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 60,
+          "units": "ft",
+          "long": 0
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8",
+              "cold"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/light/beam-rays-blue.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "ray%20of%20frost_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        },
+        "dynamiceffects": {
+          "effects": [
+            {
+              "modSpecKey": "macro.execute",
+              "value": "\"Ray of Frost\" @target",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 1,
+              "itemId": "6Oqiqd9OC1K8G9es",
+              "active": true,
+              "_targets": []
+            }
+          ],
+          "equipActive": true,
+          "alwaysActive": false
+        },
+        "dae": {
+          "activeEquipped": false,
+          "alwaysActive": false
+        },
+        "midi-qol": {
+          "onUseMacroName": "",
+          "criticalThreshold": "20",
+          "effectActivation": false,
+          "forceCEOn": false
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "somatic"
+          ]
+        }
+      },
+      "effects": [
+        {
+          "name": "Ray of Frost",
+          "icon": "icons/magic/light/beam-rays-blue.webp",
+          "changes": [
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 2,
+              "value": "-10",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "plutonium": {
+              "dedupeId": "ray-of-frost"
+            }
+          },
+          "_id": "dNFOxJA3UGDHtSmJ",
+          "tint": null,
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!Mr7goYkOWriGyKBu.yPajqeZb0geQuyzW.dNFOxJA3UGDHtSmJ"
+        }
+      ],
+      "_id": "yPajqeZb0geQuyzW",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770460966,
+        "modifiedTime": 1722770460966,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.yPajqeZb0geQuyzW"
+    },
+    {
+      "name": "Comprehend Languages",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "224",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.</p><div class=\"rd__spc-inline-post\"></div><p>This spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 1,
+        "school": "div",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "ritual"
+        ],
+        "materials": {
+          "value": "a pinch of soot and salt",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 0,
+          "units": "self",
+          "type": "self",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "self",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/skills/trades/academics-book-study-runes.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "comprehend%20languages_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        },
+        "midi-qol": {
+          "forceCEOff": true
+        }
+      },
+      "effects": [
+        {
+          "name": "Comprehend Languages",
+          "icon": "icons/skills/trades/academics-book-study-runes.webp",
+          "changes": [
+            {
+              "key": "system.traits.languages.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "stackable": "noneName",
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "midi-qol": {
+              "forceCEOff": true
+            },
+            "plutonium": {
+              "dedupeId": "comprehend-languages"
+            }
+          },
+          "_id": "LPAk6cMNJeeLWaOs",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!Mr7goYkOWriGyKBu.cEoFYu1wTQ1DiXWT.LPAk6cMNJeeLWaOs"
+        }
+      ],
+      "_id": "cEoFYu1wTQ1DiXWT",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770461040,
+        "modifiedTime": 1722770461040,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.cEoFYu1wTQ1DiXWT"
+    },
+    {
+      "name": "Fog Cloud",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "243",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is &amp;Reference[rule=heavilyobscured]{heavily obscured}. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 1,
+        "school": "con",
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 20,
+          "units": "ft",
+          "type": "sphere",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 120,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/commodities/tech/smoke-spout-blue.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "fog%20cloud_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "UIbQtnzm0vwW8Zjx",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770461131,
+        "modifiedTime": 1722770461131,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.UIbQtnzm0vwW8Zjx"
+    },
+    {
+      "name": "Sleep",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "276",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>This spell sends creatures into a magical slumber. Roll [[/r 5d8]]; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring &amp;Reference[condition=unconscious] creatures).</p><div class=\"rd__spc-inline-post\"></div><p>Starting with the creature that has the lowest current hit points, each creature affected by this spell falls &amp;Reference[condition=unconscious] until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.</p><p>Undead and creatures immune to being &amp;Reference[condition=charmed] aren't affected by this spell.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, roll an additional [[/r 2d8]] for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 1,
+        "school": "enc",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a pinch of fine sand, rose petals, or a cricket",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 20,
+          "units": "ft",
+          "type": "sphere",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 90,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [
+            [
+              "5d8",
+              "midi-none"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "2d8"
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/control/sleep-bubble-purple.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "sleep_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        },
+        "midi-qol": {
+          "onUseMacroName": "[postActiveEffects]ItemMacro",
+          "forceCEOff": true
+        },
+        "itemacro": {
+          "macro": {
+            "_id": null,
+            "name": "-",
+            "type": "script",
+            "author": "cm8ahpcp3la1d2oY",
+            "img": "icons/svg/dice-target.svg",
+            "scope": "global",
+            "command": "// based on @ccjmk and @crymic macro for sleep. Gets targets and ignores those who are immune to sleep.\n// uses convinient effects\n// Midi-qol \"On Use\"\n\nasync function wait (ms) {\n\treturn new Promise((resolve) => {\n\t\tsetTimeout(resolve, ms);\n\t});\n}\n\nconst sleepHp = await args[0].damageTotal;\nconst condition = \"Unconscious\";\nconsole.log(`Sleep Spell => Available HP Pool [${sleepHp}] points`);\nconst targets = await args[0].targets\n\t.filter((i) => i.actor.system.attributes.hp.value !== 0 && !i.actor.effects.find((x) => (x.name ?? x.label) === condition))\n\t.sort((a, b) => (canvas.tokens.get(a.id).actor.system.attributes.hp.value < canvas.tokens.get(b.id).actor.system.attributes.hp.value ? -1 : 1));\nlet remainingSleepHp = sleepHp;\nlet sleepTarget = [];\n\nfor (let target of targets) {\n\tconst findTarget = await canvas.tokens.get(target.id);\n\tconst immuneType = findTarget.actor.type === \"character\"\n\t\t? [\"undead\", \"construct\"].some((race) => (findTarget.actor.system.details.race || \"\").toLowerCase().includes(race))\n\t\t: [\"undead\", \"construct\"].some((value) => (findTarget.actor.system.details.type.value || \"\").toLowerCase().includes(value));\n\tconst immuneCI = findTarget.actor.system.traits.ci.custom.includes(\"Sleep\");\n\tconst sleeping = findTarget.actor.effects.find((i) => (i.name ?? i.label) === condition);\n\tconst targetHpValue = findTarget.actor.system.attributes.hp.value;\n\tconst targetImg = target?.texture?.src;\n\tif ((immuneType) || (immuneCI) || (sleeping)) {\n\t\tconsole.log(`Sleep Results => Target: ${findTarget.name} | HP: ${targetHpValue} | Status: Resists`);\n\t\tsleepTarget.push(`<div class=\"midi-qol-flex-container\"><div>Resists</div><div class=\"midi-qol-target-npc midi-qol-target-name\" id=\"${findTarget.id}\"> ${findTarget.name}</div><div><img src=\"${targetImg}\" width=\"30\" height=\"30\" style=\"border:0px\"></div></div>`);\n\t} else if (remainingSleepHp >= targetHpValue) {\n\t\tremainingSleepHp -= targetHpValue;\n\t\tconsole.log(`Sleep Results => Target: ${findTarget.name} |\tHP: ${targetHpValue} | HP Pool: ${remainingSleepHp} | Status: Slept`);\n\t\tsleepTarget.push(`<div class=\"midi-qol-flex-container\"><div>Slept</div><div class=\"midi-qol-target-npc midi-qol-target-name\" id=\"${findTarget.id}\"> ${findTarget.name}</div><div><img src=\"${targetImg}\" width=\"30\" height=\"30\" style=\"border:0px\"></div></div>`);\n\t\tconst gameRound = game.combat ? game.combat.round : 0;\n\t\tconst effectData = {\n\t\t\tlabel: \"Sleep Spell\",\n\t\t\tname: \"Sleep Spell\",\n\t\t\ticon: \"icons/svg/sleep.svg\",\n\t\t\torigin: args[0].uuid,\n\t\t\tdisabled: false,\n\t\t\tduration: {rounds: 10, seconds: 60, startRound: gameRound, startTime: game.time.worldTime},\n\t\t\tflags: {dae: {specialDuration: [\"isDamaged\"]}},\n\t\t\tchanges: [\n\t\t\t\t// { key: \"macro.CE\", mode: CONST.ACTIVE_EFFECT_MODES.CUSTOM, value: \"Prone\", priority: 20 },\n\t\t\t\t{key: \"macro.CE\", mode: CONST.ACTIVE_EFFECT_MODES.CUSTOM, value: \"Unconscious\", priority: 20},\n\t\t\t],\n\t\t};\n\n\t\tawait MidiQOL.socket().executeAsGM(\"createEffects\", {actorUuid: findTarget.actor.uuid, effects: [effectData]});\n\t} else {\n\t\tconsole.log(`Sleep Results => Target: ${target.name} | HP: ${targetHpValue} | HP Pool: ${remainingSleepHp - targetHpValue} | Status: Missed`);\n\t\tsleepTarget.push(`<div class=\"midi-qol-flex-container\"><div>misses</div><div class=\"midi-qol-target-npc midi-qol-target-name\" id=\"${findTarget.id}\"> ${findTarget.name}</div><div><img src=\"${targetImg}\" width=\"30\" height=\"30\" style=\"border:0px\"></div></div>`);\n\t}\n}\nawait wait(500);\nconst sleptResults = `<div><div class=\"midi-qol-nobox\">${sleepTarget.join(\"\")}</div></div>`;\nconst chatMessage = game.messages.get(args[0].itemCardId);\nlet content = duplicate(chatMessage.content);\nconst searchString = /<div class=\"midi-qol-hits-display\">[\\s\\S]*<div class=\"end-midi-qol-hits-display\">/g;\nconst replaceString = `<div class=\"midi-qol-hits-display\"><div class=\"end-midi-qol-hits-display\">${sleptResults}`;\ncontent = await content.replace(searchString, replaceString);\nawait chatMessage.update({content: content});",
+            "folder": null,
+            "sort": 0,
+            "ownership": {
+              "default": 0
+            },
+            "flags": {}
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Sleep",
+          "icon": "icons/magic/control/sleep-bubble-purple.webp",
+          "origin": "Compendium.dnd5e.spells.Item.KhwiSi9fwVfUPtku",
+          "duration": {
+            "startTime": null,
+            "seconds": 60,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "MowBnXpRu2aG48i9",
+          "changes": [],
+          "description": "<p>The creature affected by this spell falls Unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake.</p>",
+          "transfer": false,
+          "statuses": [
+            "unconscious",
+            "incapacitated"
+          ],
+          "flags": {
+            "dae": {
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "plutonium": {
+              "dedupeId": "sleep"
+            }
+          },
+          "tint": null,
+          "_key": "!actors.items.effects!Mr7goYkOWriGyKBu.oh8b61OOHl2V1ylW.MowBnXpRu2aG48i9"
+        }
+      ],
+      "_id": "oh8b61OOHl2V1ylW",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770461214,
+        "modifiedTime": 1722770461214,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.oh8b61OOHl2V1ylW"
+    },
+    {
+      "name": "Detect Thoughts",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "231",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</p><div class=\"rd__spc-inline-post\"></div><p>You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p><p>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p><p>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</p><p>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</p></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 2,
+        "school": "div",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a copper piece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "self",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "self",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "int"
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/lightning/bolt-strike-purple.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "detect%20thoughts_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "NDgjNlpqJZXWz1ry",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770461324,
+        "modifiedTime": 1722770461324,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.NDgjNlpqJZXWz1ry"
+    },
+    {
+      "name": "Gust of Wind",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "248",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell's duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line.</p><div class=\"rd__spc-inline-post\"></div><p>Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.</p><p>The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a [[/r 1d100]]{50 percent} chance to extinguish them.</p><p>As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.</p></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 2,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a legume seed",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 60,
+          "units": "ft",
+          "type": "line",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "str",
+          "dc": null,
+          "scaling": "int"
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/nature/leaf-juggle-humanoid-green.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "gust%20of%20wind_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "AoFceEAtH3QIyJSh",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770461426,
+        "modifiedTime": 1722770461426,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.AoFceEAtH3QIyJSh"
+    },
+    {
+      "name": "Mirror Image",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "260",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates.</p><div class=\"rd__spc-inline-post\"></div><p>Each time a creature targets you with an attack during the spell's duration, roll a [[/r d20]] to determine whether the attack instead targets one of your duplicates.</p><p>If you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.</p><p>A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.</p><p>A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with &amp;Reference[rule=truesight].</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 2,
+        "school": "ill",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 0,
+          "units": "self",
+          "type": "self",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "self",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/sundries/gaming/chess-pawn-white-glass.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "mirror%20image_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "xPS2M6CO2f9yn90N",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770461511,
+        "modifiedTime": 1722770461511,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.xPS2M6CO2f9yn90N"
+    },
+    {
+      "name": "Animate Dead",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "212",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a @creature[skeleton] if you chose bones or a @creature[zombie] if you chose a corpse (the DM has the creature's game statistics).</p><div class=\"rd__spc-inline-post\"></div><p>On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.</p><p>The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "other",
+        "level": 3,
+        "school": "nec",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a drop of blood, a piece of flesh, and a pinch of bone dust",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": "",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 10,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "minute",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "spell",
+          "ability": ""
+        },
+        "ability": "",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "target": "",
+          "type": "",
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/death/skeleton-skull-soul-blue.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "animate%20dead_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": false,
+          "magiceffect": true,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "concentration": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "midi-qol": {
+          "effectActivation": false,
+          "onUseMacroName": "[postActiveEffects]function.chrisPremades.macros.animateDead",
+          "onUseMacroParts": {
+            "items": {
+              "0": {
+                "macroName": "function.chrisPremades.macros.animateDead",
+                "option": "postActiveEffects"
+              }
+            }
+          }
+        },
+        "rest-recovery": {
+          "data": {
+            "recovery": {
+              "enabled": false
+            }
+          }
+        },
+        "chris-premades": {
+          "info": {
+            "name": "Animate Dead",
+            "version": "0.7.01",
+            "actors": [
+              "CPR - Skeleton",
+              "CPR - Zombie"
+            ],
+            "source": "CPR"
+          }
+        },
+        "dnd5e": {}
+      },
+      "effects": [],
+      "_id": "1Kk95WuS9FypK7ez",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770461621,
+        "modifiedTime": 1722770461621,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.1Kk95WuS9FypK7ez"
+    },
+    {
+      "name": "Bestow Curse",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "218",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.</li><li class=\"rd__li \">While cursed, the target has disadvantage on attack rolls against you.</li><li class=\"rd__li \">While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.</li><li class=\"rd__li \">While the target is cursed, your attacks and spells deal an extra [[/damage 1d8 type=necrotic]] damage to the target.</li></ul><p>A @spell[remove curse] spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>If you cast this spell using a spell slot of 4th level or higher, the duration is @status[concentration], up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require @status[concentration].</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 3,
+        "school": "nec",
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "touch",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "touch",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "int"
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/death/projectile-skull-fire-purple.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "bestow%20curse_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "TogI40SwIrRECI3n",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770461706,
+        "modifiedTime": 1722770461706,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.TogI40SwIrRECI3n"
+    },
+    {
+      "name": "Nondetection",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "263",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical scrying sensors.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 3,
+        "school": "abj",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes",
+          "consumed": true,
+          "cost": 25,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "touch",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "touch",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "8",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/equipment/neck/amulet-carved-runed-othila-fehu-grey.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "nondetection_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "j0bzuzcwiiAR55tn",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770461785,
+        "modifiedTime": 1722770461785,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.j0bzuzcwiiAR55tn"
+    },
+    {
+      "name": "Blight",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "219",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes [[/damage 8d8 type=necrotic]] damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs.</p><div class=\"rd__spc-inline-post\"></div><p>If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.</p><p>If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by [[/damage 1d8]] for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 4,
+        "school": "nec",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 30,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "8d8",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        },
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "int"
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/commodities/treasure/mask-bone-white.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "blight_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "1oC5BKk8LYjjfmbb",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770461875,
+        "modifiedTime": 1722770461875,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.1oC5BKk8LYjjfmbb"
+    },
+    {
+      "name": "Greater Invisibility",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "246",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You or a creature you touch becomes &amp;Reference[condition=invisible] until the spell ends. Anything the target is wearing or carrying is &amp;Reference[condition=invisible] as long as it is on the target's person.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 4,
+        "school": "ill",
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "touch",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "touch",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "greater%20invisibility_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [
+        {
+          "name": "Greater Invisibility",
+          "icon": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+          "origin": "Compendium.dnd5e.spells.Item.tEpDmYZNGc9f5OhJ",
+          "duration": {
+            "startTime": null,
+            "seconds": 60,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "lhYVl4DD9jyS5gcn",
+          "changes": [],
+          "description": "<p>The target becomes Invisible until the spell ends. Anything the target is wearing or carrying is Invisible as long as it is on the target's person.</p>",
+          "transfer": false,
+          "statuses": [
+            "invisible"
+          ],
+          "flags": {
+            "dae": {
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "plutonium": {
+              "dedupeId": "greater-invisibility"
+            }
+          },
+          "tint": null,
+          "_key": "!actors.items.effects!Mr7goYkOWriGyKBu.yNUlULgBoLLC4Bmb.lhYVl4DD9jyS5gcn"
+        },
+        {
+          "name": "Invisible",
+          "icon": "modules/dfreds-convenient-effects/images/invisible.svg",
+          "changes": [
+            {
+              "key": "flags.midi-qol.advantage.attack.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 7
+            },
+            {
+              "key": "flags.midi-qol.grants.disadvantage.attack.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 7
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "rounds": null,
+            "seconds": null,
+            "turns": null,
+            "startTime": null,
+            "combat": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dfreds-convenient-effects": {
+              "isConvenient": true,
+              "isDynamic": false,
+              "isViewable": true,
+              "nestedEffects": [],
+              "subEffects": []
+            },
+            "dae": {
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "plutonium": {
+              "dedupeId": "invisible"
+            }
+          },
+          "description": "- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.<br />- Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.",
+          "tint": null,
+          "statuses": [
+            "Convenient Effect: Invisible",
+            "invisible"
+          ],
+          "_id": "wrzXJMiOFhd5lo8p",
+          "_key": "!actors.items.effects!Mr7goYkOWriGyKBu.yNUlULgBoLLC4Bmb.wrzXJMiOFhd5lo8p"
+        }
+      ],
+      "_id": "yNUlULgBoLLC4Bmb",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770461938,
+        "modifiedTime": 1722770461938,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.yNUlULgBoLLC4Bmb"
+    },
+    {
+      "name": "Dominate Person",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "235",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be &amp;Reference[condition=charmed] by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.</p><div class=\"rd__spc-inline-post\"></div><p>While the target is &amp;Reference[condition=charmed], you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.</p><p>You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.</p><p>Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a 6th-level spell slot, the duration is @status[concentration], up to 10 minutes. When you use a 7th-level spell slot, the duration is @status[concentration], up to 1 hour. When you use a spell slot of 8th level or higher, the duration is @status[concentration], up to 8 hours.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 5,
+        "school": "enc",
+        "properties": [],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 60,
+          "units": "ft",
+          "long": 0
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/death/projectile-skull-flaming-yellow.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "dominate%20person_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        },
+        "dynamiceffects": {
+          "equipActive": true,
+          "alwaysActive": false,
+          "effects": [
+            {
+              "modSpecKey": "flags.dnd5e.conditions",
+              "value": "Charmed",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 1,
+              "itemId": "gKzO4fpcwMOcAGi7",
+              "active": true,
+              "_targets": []
+            }
+          ]
+        },
+        "dae": {
+          "activeEquipped": false,
+          "alwaysActive": false
+        },
+        "midi-qol": {
+          "onUseMacroName": ""
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "somatic",
+            "concentration"
+          ]
+        }
+      },
+      "effects": [
+        {
+          "name": "Dominate Person",
+          "icon": "icons/magic/death/projectile-skull-flaming-yellow.webp",
+          "changes": [
+            {
+              "key": "StatusEffect",
+              "mode": 0,
+              "value": "Convenient Effect: Charmed",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "plutonium": {
+              "dedupeId": "dominate-person"
+            }
+          },
+          "_id": "svWQXmnuGuAc72FC",
+          "tint": null,
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!Mr7goYkOWriGyKBu.ALnFLBilxzXWYYuS.svWQXmnuGuAc72FC"
+        }
+      ],
+      "_id": "ALnFLBilxzXWYYuS",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770462019,
+        "modifiedTime": 1722770462019,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.ALnFLBilxzXWYYuS"
+    },
+    {
+      "_id": "FYePL7fPjR8QGJPO",
+      "name": "Spellcasting",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "298",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Spellcasting.</span></span> <p>The vampire is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC <span class=\"rd__dc\">16</span>, [[/r 1d20+8]]{+8} to hit with spell attacks). The vampire has the following wizard spells prepared:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>Cantrips (at will): @UUID[Actor.Mr7goYkOWriGyKBu.Item.LuXn0HdAs8RIGFU0], @UUID[Actor.Mr7goYkOWriGyKBu.Item.rboejizBoDTseJPW], @UUID[Actor.Mr7goYkOWriGyKBu.Item.yPajqeZb0geQuyzW]</p></li><li class=\"rd__li  rd__li-spell\"><p>1st level (4 slots): @UUID[Actor.Mr7goYkOWriGyKBu.Item.cEoFYu1wTQ1DiXWT], @UUID[Actor.Mr7goYkOWriGyKBu.Item.UIbQtnzm0vwW8Zjx], @UUID[Actor.Mr7goYkOWriGyKBu.Item.oh8b61OOHl2V1ylW]</p></li><li class=\"rd__li  rd__li-spell\"><p>2nd level (3 slots): @UUID[Actor.Mr7goYkOWriGyKBu.Item.NDgjNlpqJZXWz1ry], @UUID[Actor.Mr7goYkOWriGyKBu.Item.AoFceEAtH3QIyJSh], @UUID[Actor.Mr7goYkOWriGyKBu.Item.xPS2M6CO2f9yn90N]</p></li><li class=\"rd__li  rd__li-spell\"><p>3rd level (3 slots): @UUID[Actor.Mr7goYkOWriGyKBu.Item.1Kk95WuS9FypK7ez], @UUID[Actor.Mr7goYkOWriGyKBu.Item.TogI40SwIrRECI3n], @UUID[Actor.Mr7goYkOWriGyKBu.Item.j0bzuzcwiiAR55tn]</p></li><li class=\"rd__li  rd__li-spell\"><p>4th level (3 slots): @UUID[Actor.Mr7goYkOWriGyKBu.Item.1oC5BKk8LYjjfmbb], @UUID[Actor.Mr7goYkOWriGyKBu.Item.yNUlULgBoLLC4Bmb]</p></li><li class=\"rd__li  rd__li-spell\"><p>5th level (1 slot): @UUID[Actor.Mr7goYkOWriGyKBu.Item.ALnFLBilxzXWYYuS]</p></li></ul></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "prompt": true
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "actionType": null,
+        "formula": "",
+        "summons": null,
+        "properties": [],
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/light/beam-rays-magenta-large.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterSpellcasting",
+          "source": "MM",
+          "hash": "spellcasting_vampire%20spellcaster_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770462084,
+        "modifiedTime": 1722770462084,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!Mr7goYkOWriGyKBu.FYePL7fPjR8QGJPO"
+    }
+  ],
+  "effects": [],
+  "folder": "kS4GuEe6n6AXaVnZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "cm8ahpcp3la1d2oY": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "11.315",
+    "createdTime": 1722770459521,
+    "modifiedTime": 1722771186468,
+    "lastModifiedBy": "cm8ahpcp3la1d2oY"
+  },
+  "_key": "!actors!Mr7goYkOWriGyKBu"
+}

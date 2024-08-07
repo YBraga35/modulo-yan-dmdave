@@ -1,0 +1,1771 @@
+{
+  "name": "Mulcher",
+  "type": "npc",
+  "flags": {
+    "plutonium": {
+      "page": "bestiary.html",
+      "source": "ToB3",
+      "hash": "mulcher_tob3"
+    }
+  },
+  "_id": "AO2W86fq1hbjyoko",
+  "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/Duskwilt.webp",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "dex": {
+        "value": 6,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "con": {
+        "value": 20,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "int": {
+        "value": 4,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "cha": {
+        "value": 1,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 2,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": "0"
+      },
+      "movement": {
+        "burrow": 30,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 10,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 120,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "ac": {
+        "flat": 15,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 139,
+        "max": 139,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "9d20 + 45"
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--1\"><div class=\"float-clear\"></div><div><div class=\"rd__wrp-image relative\">\n\t\t\t<a href=\"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/Duskwilt.webp\" target=\"_blank\" rel=\"noopener noreferrer\">\n\t\t\t\t<img class=\"rd__image\" src=\"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/Duskwilt.webp\" />\n\t\t\t</a>\n\t\t</div></div></div><div class=\"rd__b  rd__b--1\"><div class=\"rd__b  rd__b--2\"><div class=\"rd__quote\"><p class=\"rd__quote-line \">“<i>The large orange flower reveals a tall, blue stalk. The petals clamp on a swarm of insects, showing their fleshy, tooth-like nature.</i>”</p></div><p>A voracious fungus, the mulcher hides within topsoil, waiting to trap oblivious creatures.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Hidden Danger.</span></span> <p>This massive fungus is as sweeping and bulky as a @creature[dragon turtle]. It uses the ground as cover, where it can ambush prey that travels above it. Alternatively, it can trigger pit traps beneath its prey, impaling the falling creatures on its spike-like mycelium. Once prey has been impaled, the fungus drinks in the victim's blood as greedily as groundwater.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Weak Spot.</span></span> <p>When injured or when it fails to capture sufficient food, the mulcher pushes its fragile central stalk to the surface, releasing insect-attracting pheromones to gain some quick nutrients from the meager prey.</p><div class=\"rd__spc-inline-post\"></div></div></div></div>",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": null,
+      "type": {
+        "value": "plant",
+        "subtype": ""
+      },
+      "environment": "Farmland, Forest, Hill",
+      "cr": 6,
+      "spellLevel": 0,
+      "source": {
+        "book": "ToB3",
+        "page": "191",
+        "custom": "",
+        "license": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    },
+    "traits": {
+      "size": "grg",
+      "di": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "deafened",
+          "frightened",
+          "prone"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Mulcher",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/token/Duskwilt.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 4,
+    "height": 4,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": "skills.prc.passive"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 120,
+      "angle": 360,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "blindsight",
+        "range": 120,
+        "enabled": true
+      }
+    ],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "16sM4FbyUcRLfd6n",
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "191",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The mulcher makes two Mycelium Spike attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "ToB3",
+          "hash": "multiattack_mulcher_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772920744,
+        "modifiedTime": 1722772920744,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!AO2W86fq1hbjyoko.16sM4FbyUcRLfd6n"
+    },
+    {
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d10  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "191",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+7]]{+7} to hit, reach 15 ft., one target. <i>Hit:</i> 15 ([[/damage 2d10 + 4 type=piercing]]) damage, and the target must succeed on a [[/save ability=strength dc=15]] saving throw or be &amp;Reference[condition=grappled] (escape DC <span class=\"rd__dc\">15</span>) if the mulcher doesn't have two other creatures &amp;Reference[condition=grappled].</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "range": {
+          "value": 15,
+          "long": null,
+          "units": "ft"
+        },
+        "proficient": 1,
+        "save": {
+          "ability": "str",
+          "dc": 15,
+          "scaling": "str"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "value": 1,
+          "type": "creature",
+          "prompt": true,
+          "width": null,
+          "units": ""
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "properties": [],
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": 0,
+        "equipped": true,
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "summons": null,
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "magicalBonus": null
+      },
+      "_id": "gSAVWIUWRfyMhYTg",
+      "name": "Mycelium Spike",
+      "type": "weapon",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "modules/plutonium/media/icon/sword-brandish.svg",
+      "flags": {
+        "midiProperties": {
+          "nodam": true
+        },
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "ToB3",
+          "hash": "mycelium%20spike_mulcher_tob3_tob3"
+        }
+      },
+      "effects": [
+        {
+          "name": "Mycelium Spike",
+          "icon": "modules/plutonium/media/icon/sword-brandish.svg",
+          "changes": [
+            {
+              "key": "StatusEffect",
+              "mode": 0,
+              "value": "Convenient Effect: Grappled",
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "mycelium-spike"
+            }
+          },
+          "_id": "gHmAa5aRoHTMqY3f",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!AO2W86fq1hbjyoko.gSAVWIUWRfyMhYTg.gHmAa5aRoHTMqY3f"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772920789,
+        "modifiedTime": 1722772920789,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!AO2W86fq1hbjyoko.gSAVWIUWRfyMhYTg"
+    },
+    {
+      "_id": "hPajRpLiWyxqugcd",
+      "name": "Excavate",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "191",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>While underground, the mulcher creates a 20-foot square cover on the ground over itself and lurks just below the surface. The cover is identical to the ground around it. When a creature enters the cover's space, the mulcher can make one Mycelium Spike attack against the creature as a reaction, destroying the cover. The target has disadvantage on the saving throw to avoid being &amp;Reference[condition=grappled].</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "value": 20,
+          "units": "ft",
+          "type": "square",
+          "prompt": true,
+          "width": null
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "ToB3",
+          "hash": "excavate_mulcher_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772920861,
+        "modifiedTime": 1722772920861,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!AO2W86fq1hbjyoko.hPajRpLiWyxqugcd"
+    },
+    {
+      "_id": "PBzf4LNSeycfpYje",
+      "name": "Central Stalk Weakness",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "191",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The mulcher's central stalk lies hidden within the mulcher's fungal mass. When exposed, the central stalk can be attacked and destroyed (AC 13; hp 50; vulnerability to acid, cold, and fire damage). If the central stalk is destroyed, the mulcher has disadvantage on attack rolls and can't use Expose Stalk until it regrows a new central stalk at the end of its next long rest.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "central%20stalk%20weakness_mulcher_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772920889,
+        "modifiedTime": 1722772920889,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!AO2W86fq1hbjyoko.PBzf4LNSeycfpYje"
+    },
+    {
+      "_id": "AKksDCiZ6iWyT7A8",
+      "name": "Disturbed Soil (Exposed Stalk Only)",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "191",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The ground within 20 feet of the mulcher is difficult terrain.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "disturbed%20soil%20(exposed%20stalk%20only)_mulcher_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772920917,
+        "modifiedTime": 1722772920917,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!AO2W86fq1hbjyoko.AKksDCiZ6iWyT7A8"
+    },
+    {
+      "_id": "Dtc7r2KbGqqde9uR",
+      "name": "Mulcher Pit",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "191",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>If the mulcher burrows at least 20 feet straight toward a creature, it can dig a 10-foot diameter, 20-foot-deep pit beneath the creature. Each Large or smaller creature in the pit's area must succeed on a [[/save ability=dexterity dc=15]] saving throw or fall into the mycelium-lined pit and land &amp;Reference[condition=prone], taking 14 ([[/damage 4d6 type=piercing]]) damage from the spiked mycelium in addition to any falling damage. The mulcher can make one Mycelium Spike attack against a &amp;Reference[condition=prone] creature in the pit as a bonus action.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d6",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "ability": "dex",
+          "dc": 15,
+          "scaling": "str"
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "midiProperties": {
+          "nodam": true
+        },
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "mulcher%20pit_mulcher_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772920953,
+        "modifiedTime": 1722772920953,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!AO2W86fq1hbjyoko.Dtc7r2KbGqqde9uR"
+    },
+    {
+      "_id": "A2FQJIvMcp1OpjKi",
+      "name": "Stalk Regeneration (Exposed Stalk Only)",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "191",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The mulcher gains 15 hp at the start of its turn if it has at least 1 hp.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "stalk%20regeneration%20(exposed%20stalk%20only)_mulcher_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772920988,
+        "modifiedTime": 1722772920988,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!AO2W86fq1hbjyoko.A2FQJIvMcp1OpjKi"
+    },
+    {
+      "_id": "mlgDdOAbt2h9lUEE",
+      "name": "Expose Stalk",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "191",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The mulcher exposes its central stalk above the ground until the end of its next turn or until it ends the effect as a bonus action. While the central stalk is exposed, the mulcher can't burrow.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterBonus",
+          "source": "ToB3",
+          "hash": "expose%20stalk_mulcher_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772921022,
+        "modifiedTime": 1722772921022,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!AO2W86fq1hbjyoko.mlgDdOAbt2h9lUEE"
+    },
+    {
+      "_id": "Rah2N3a1icp0Clkt",
+      "name": "Rapid Burrow",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "191",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The mulcher burrows up to 60 feet. @action[Opportunity attack||Opportunity attacks] against it are made with disadvantage when the mulcher burrows out of an enemy's reach in this way. Creatures &amp;Reference[condition=grappled] by it are freed before it burrows.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterBonus",
+          "source": "ToB3",
+          "hash": "rapid%20burrow_mulcher_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772921051,
+        "modifiedTime": 1722772921051,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!AO2W86fq1hbjyoko.Rah2N3a1icp0Clkt"
+    },
+    {
+      "_id": "xlfA0dgOZBPtDKs4",
+      "name": "Emergent Stalk",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "191",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>When the mulcher is reduced to below half its hp maximum or when a creature scores a critical hit against it, the mulcher immediately uses Expose Stalk.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "reactionmanual",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterReaction",
+          "source": "ToB3",
+          "hash": "emergent%20stalk_mulcher_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772921079,
+        "modifiedTime": 1722772921079,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!AO2W86fq1hbjyoko.xlfA0dgOZBPtDKs4"
+    }
+  ],
+  "effects": [],
+  "folder": "w6m5VXUb7MgieumH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "cm8ahpcp3la1d2oY": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "11.315",
+    "createdTime": 1722772920442,
+    "modifiedTime": 1722774733060,
+    "lastModifiedBy": "cm8ahpcp3la1d2oY"
+  },
+  "_key": "!actors!AO2W86fq1hbjyoko"
+}

@@ -1,0 +1,3500 @@
+{
+  "name": "Dread Examiner",
+  "type": "npc",
+  "flags": {
+    "plutonium": {
+      "page": "bestiary.html",
+      "source": "ToB3",
+      "hash": "dread%20examiner_tob3"
+    }
+  },
+  "_id": "YCtxO4OFcwdr79Ta",
+  "img": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/Dread Examiner.webp",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 20,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "con": {
+        "value": 22,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "int": {
+        "value": 25,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "wis": {
+        "value": 23,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "cha": {
+        "value": 25,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": "0"
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": 30,
+        "swim": 30,
+        "walk": 30,
+        "units": "ft",
+        "hover": true
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 120,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "ac": {
+        "flat": 19,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 322,
+        "max": 322,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "28d10 + 168"
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--1\"><div class=\"float-clear\"></div><div><div class=\"rd__wrp-image relative\">\n\t\t\t<a href=\"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/Dread Examiner.webp\" target=\"_blank\" rel=\"noopener noreferrer\">\n\t\t\t\t<img class=\"rd__image\" src=\"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/Dread Examiner.webp\" />\n\t\t\t</a>\n\t\t</div></div></div><div class=\"rd__b  rd__b--1\"><div class=\"rd__b  rd__b--2\"><div class=\"rd__quote\"><p class=\"rd__quote-line \">“<i>Random objects float together in mutual orbit. As they move, shifting perspectives, their body doesn't change but its shape appears to, gaining an elongated head and stretched limbs that end in terrible talons. Another turn, and its form is lost again, appearing simply as floating shapes.</i>”</p></div><p>The dread examiner is clearly not of this world, perhaps not even of this universe. A powerful creature without pity or mercy, the dread examiner abducts creatures of all types and subjects them to mind and body-altering experiments. These experiments often combine the flesh of several beings into new, terrible amalgams, such as a fire-breathing, fire-resistant troll. The dread examiner's motives for this behavior are unknown. Perhaps there is some grand scheme behind its machinations, an ineffable goal beyond the understanding of mortal minds.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Picking through the Carnage.</span></span> <p>To anchor its presence in this reality, the dread examiner creates a body for itself out of whatever materials are at hand when it arrives on the Material Plane. Rocks, tools, debris, carrion, whatever happens to be at hand is bound together with psychic force. The material undergoes a profound change, becoming rubbery, slick, and organic with a purplish-blue, slimy surface, though the original shapes of the objects used to construct the body remain. The collection moves together in a tight orbit, perceived differently by those viewing it, depending on the angle at which it is viewed. From one angle, the dread examiner might have a humanoid form, but this impression changes as it or its observers move, ranging from a malformed giant to a random collection of flying shapes. The body serves no other purpose than to anchor the dread examiner in physical reality. When the body \"dies,\" the examiner departs this realm to return at a later time. This return may take months, years, or even centuries.</p><div class=\"rd__spc-inline-post\"></div></div></div></div><div class=\"rd__b  rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"2\"> <span class=\"entry-title-inner\">The Dread Examiner's Lair</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable no-select no-print lst-is-exporting-image__hidden\" data-rd-h-toggle-button=\"true\" title=\"Toggle Visibility (CTRL to Toggle All)\">[–]</span></span></h2> <p>The dread examiner rarely stays in one place for long, perhaps a year or two at most in one area, performing its experiments on living beings before moving on. It finds an enclosed area, often underground tunnels or an abandoned building where it can act without interruption. Here it fabricates tools, holding facilities, and machines out of the materials available to it, forming an elaborate, device-filled laboratory. When finished, the dread examiner unmakes its devices, leaving nothing but debris when it departs. Occasionally, the dread examiner leaves functional equipment behind, intending to return to the lair and resume its work.</p></div><div class=\"rd__b  rd__b--1\"><div class=\"rd__b  rd__b--2\"><h3 class=\"rd__h rd__h--2\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Lair Actions</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable no-select no-print lst-is-exporting-image__hidden\" data-rd-h-toggle-button=\"true\" title=\"Toggle Visibility (CTRL to Toggle All)\">[–]</span></span></h3> <p>On initiative count 20 (losing initiative ties), the dread examiner takes a lair action to create one of the following effects; the dread examiner can't use the same effect two rounds in a row:</p><ul class=\"rd__list\"><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Animate Device.</span> A device the dread examiner can see within 120 feet of it briefly animates, reaching out with grasping appendages at a creature within 10 feet of the device. The target must succeed on a [[/save ability=dexterity dc=20]] saving throw or take 14 ([[/damage 4d6 type=bludgeoning]]) damage and be &amp;Reference[condition=restrained]. A creature, including the &amp;Reference[condition=restrained] creature, can take its action to break free by succeeding on a [[/save ability=strength dc=20]] check.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Psychedelic Gas.</span> Cannisters of strange gas release their contents in a 20-foot radius centered on a point the dread examiner can see within 120 feet it. Each creature in the area must make a [[/save ability=constitution dc=20]] saving throw. On a failure it takes 11 ([[/damage 2d10]]) poison and 11 ([[/damage 2d10 type=psychic]]) damage and is &amp;Reference[condition=poisoned] until the end of its next turn. On a success, it takes half the damage and isn't &amp;Reference[condition=poisoned].</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Shrieking Crystal.</span> A glowing crystal the dread examiner can see within 120 feet of it emits a screech and burst of light. Each creature within 20 feet of the crystal must succeed on a [[/save ability=constitution dc=20]] saving throw or be &amp;Reference[condition=blinded] and &amp;Reference[condition=deafened] until the end its next turn.</p></li></ul></div></div><div class=\"rd__b  rd__b--1\"><div class=\"rd__b  rd__b--2\"><h3 class=\"rd__h rd__h--2\" data-title-index=\"4\"> <span class=\"entry-title-inner\">Regional Effects</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable no-select no-print lst-is-exporting-image__hidden\" data-rd-h-toggle-button=\"true\" title=\"Toggle Visibility (CTRL to Toggle All)\">[–]</span></span></h3> <p>The region containing the dread examiner's lair is warped by its unnatural presence, which creates one or more of the following effects:</p><ul class=\"rd__list\"><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Bountiful Aberrations.</span> Within 5 miles of the lair, aberrations and mutated creatures are more common.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Hallucinations.</span> Creatures with an Intelligence score of 5 or higher regularly see mirages and experience similar visual hallucinations while within 1 mile of the lair.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Strange Phenomena.</span> The dread examiner's psychic emanations have strange effects on wildlife within 3 miles of the lair, causing one or more of the following phenomena: flocks of birds flying in strange formations, ominous symbols forming in the air from clouds, pollen, floating leaves, or similar airborne objects, Beasts becoming uncharacteristically aggressive or reckless.</p></li></ul><p>If the dread examiner dies or departs the region for more than 24 hours, these effects fade over the course of [[/r 1d10]] days.</p></div></div>",
+        "public": ""
+      },
+      "alignment": "neutral evil",
+      "race": null,
+      "type": {
+        "value": "aberration",
+        "subtype": ""
+      },
+      "environment": "Any, Planar",
+      "cr": 21,
+      "spellLevel": 0,
+      "source": {
+        "book": "ToB3",
+        "page": "159",
+        "custom": "",
+        "license": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 3,
+        "max": 3
+      },
+      "legres": {
+        "value": 3,
+        "max": 3
+      },
+      "lair": {
+        "value": true,
+        "initiative": 20
+      }
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "bypasses": [
+          "mgc"
+        ],
+        "value": [
+          "poison",
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "bypasses": [],
+        "value": [
+          "acid",
+          "cold",
+          "fire"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [
+          "exhaustion",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "aarakocra",
+          "abyssal",
+          "aquan",
+          "auran",
+          "celestial",
+          "deep",
+          "draconic",
+          "druidic",
+          "dwarvish",
+          "elvish",
+          "giant",
+          "gith",
+          "gnomish",
+          "goblin",
+          "gnoll",
+          "halfling",
+          "ignan",
+          "infernal",
+          "orc",
+          "primordial",
+          "sylvan",
+          "terran",
+          "cant",
+          "undercommon"
+        ],
+        "custom": "telepathy 120 ft."
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Dread Examiner",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB3/creature/token/Dread Examiner.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 2,
+    "height": 2,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": "skills.prc.passive"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 120,
+      "angle": 360,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "seeAll",
+        "range": 120,
+        "enabled": true
+      }
+    ],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "3tB9hetBOiRXwZx3",
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The dread examiner makes three Force Swipe or Force Blast attacks. It can replace one attack with a use of Spellcasting.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "ToB3",
+          "hash": "multiattack_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897097,
+        "modifiedTime": 1722772897097,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.3tB9hetBOiRXwZx3"
+    },
+    {
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "8d8  + @mod",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Spell Attack:</i> [[/r 1d20+14]]{+14} to hit, reach 5 ft., one target. <i>Hit:</i> 43 ([[/damage 8d8 + 7 type=force]]) damage, and the target must succeed on a [[/save ability=strength dc=20]] saving throw or be pushed up to 10 feet in a direction of the dread examiner's choosing.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "proficient": 1,
+        "save": {
+          "ability": "str",
+          "dc": 20,
+          "scaling": "str"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "value": 1,
+          "type": "creature",
+          "prompt": true,
+          "width": null,
+          "units": ""
+        },
+        "ability": "int",
+        "actionType": "msak",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "properties": [],
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": 0,
+        "equipped": true,
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "summons": null,
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "magicalBonus": null
+      },
+      "_id": "uxMuZSflOUmU46gF",
+      "name": "Force Swipe",
+      "type": "weapon",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "modules/plutonium/media/icon/fairy-wand.svg",
+      "flags": {
+        "midiProperties": {
+          "nodam": true
+        },
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "ToB3",
+          "hash": "force%20swipe_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897136,
+        "modifiedTime": 1722772897136,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.uxMuZSflOUmU46gF"
+    },
+    {
+      "system": {
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "8d8  + @mod",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Ranged Spell Attack:</i> [[/r 1d20+14]]{+14} to hit, range 120 ft., one target. <i>Hit:</i> 43 ([[/damage 8d8 + 7 type=force]]) damage, and the target must succeed on a [[/save ability=strength dc=20]] saving throw or be knocked &amp;Reference[condition=prone].</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "proficient": 1,
+        "save": {
+          "ability": "str",
+          "dc": 20,
+          "scaling": "str"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "value": 1,
+          "type": "creature",
+          "prompt": true,
+          "width": null,
+          "units": ""
+        },
+        "ability": "int",
+        "actionType": "rsak",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "properties": [],
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": 0,
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": 0,
+        "equipped": true,
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "summons": null,
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "magicalBonus": null
+      },
+      "_id": "98NCnxqZZa9rYLKc",
+      "name": "Force Blast",
+      "type": "weapon",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "modules/plutonium/media/icon/fairy-wand.svg",
+      "flags": {
+        "midiProperties": {
+          "nodam": true
+        },
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "ToB3",
+          "hash": "force%20blast_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [
+        {
+          "name": "Force Blast",
+          "icon": "modules/plutonium/media/icon/fairy-wand.svg",
+          "changes": [
+            {
+              "key": "StatusEffect",
+              "mode": 0,
+              "value": "Convenient Effect: Prone",
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "force-blast"
+            }
+          },
+          "_id": "kQkWztw2aZRh30Iq",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!YCtxO4OFcwdr79Ta.98NCnxqZZa9rYLKc.kQkWztw2aZRh30Iq"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897208,
+        "modifiedTime": 1722772897208,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.98NCnxqZZa9rYLKc"
+    },
+    {
+      "_id": "OCCZmc8AT3K5TSki",
+      "name": "Legendary Resistance",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>If the dread examiner fails a saving throw, it can choose to succeed instead.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "special",
+          "condition": "If the dread examiner fails a saving throw, it can choose to succeed instead.",
+          "cost": null
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legres.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/water/orb-water-bubbles.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "legendary%20resistance%20(3%2fday)_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897243,
+        "modifiedTime": 1722772897243,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.OCCZmc8AT3K5TSki"
+    },
+    {
+      "_id": "9Uc6Ndy9xYmsoidI",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The dread examiner has advantage on saving throws against spells and other magical effects.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "magic%20resistance_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897281,
+        "modifiedTime": 1722772897281,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.9Uc6Ndy9xYmsoidI"
+    },
+    {
+      "_id": "2cp3etUPBVEqU4HX",
+      "name": "Otherworldly Form",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The dread examiner's form is tentative in its cohesion, as well as its adherence to physical laws. It is immune to effects that cause the loss of limbs, such as the effects of a sword of sharpness or vorpal sword. It is immune to any spell or effect that would alter its form, and it can move through a space as narrow as 1 foot wide without squeezing.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "otherworldly%20form_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897325,
+        "modifiedTime": 1722772897325,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.2cp3etUPBVEqU4HX"
+    },
+    {
+      "_id": "04lZAlesNhPbbs3F",
+      "name": "Psychic Awareness",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>If the dread examiner is being directly observed at the start of its turn, it can immediately make a Wisdom (&amp;Reference[skill=Perception]) check to notice the observer. Once it has noticed the observer, it always knows the observer's exact location regardless of cover, obscurement, or invisibility, as long as the observer is within 120 feet of the examiner.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "psychic%20awareness_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897360,
+        "modifiedTime": 1722772897360,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.04lZAlesNhPbbs3F"
+    },
+    {
+      "_id": "Rkn1MUMdDx9KuDLA",
+      "name": "Sense Magic",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The dread examiner senses magic within 120 feet of it at will. This trait otherwise works like the @spell[detect magic] spell but isn't itself magical.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterTrait",
+          "source": "ToB3",
+          "hash": "sense%20magic_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897397,
+        "modifiedTime": 1722772897397,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.Rkn1MUMdDx9KuDLA"
+    },
+    {
+      "_id": "vTvnMb8czDpBe7mO",
+      "name": "Teleport",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The dread examiner magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 1,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterLegendary",
+          "source": "ToB3",
+          "hash": "teleport_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897432,
+        "modifiedTime": 1722772897432,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.vTvnMb8czDpBe7mO"
+    },
+    {
+      "_id": "keN1njgxKx1L8EMr",
+      "name": "Reform",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The dread examiner rearranges its disjointed parts and regains 36 ([[/damage 8d8]]) hp.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 2,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 2,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterLegendary",
+          "source": "ToB3",
+          "hash": "reform_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897465,
+        "modifiedTime": 1722772897465,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.keN1njgxKx1L8EMr"
+    },
+    {
+      "_id": "5afArRuza5dccrzX",
+      "name": "Psychic Surge",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The dread examiner releases a wave of psychic energy. Each creature within 20 feet of it must make a [[/save ability=wisdom dc=20]] saving throw. On a failure, a creature takes 21 ([[/damage 6d6 type=psychic]]) damage, can't use reactions, and has disadvantage on attack rolls and ability checks until the end of its next turn. On a success, a creature takes half the damage and ignores the other effects of this legendary action.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "6d6",
+              "psychic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "ability": "wis",
+          "dc": 20,
+          "scaling": "str"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 3,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "attribute",
+          "target": "resources.legact.value",
+          "amount": 3,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "flags": {
+        "midiProperties": {
+          "nodam": true
+        },
+        "plutonium": {
+          "page": "monsterLegendary",
+          "source": "ToB3",
+          "hash": "psychic%20surge_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897516,
+        "modifiedTime": 1722772897516,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.5afArRuza5dccrzX"
+    },
+    {
+      "_id": "SdYT1vGDxpjTlMLJ",
+      "name": "Legendary Actions",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p>The dread examiner can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The dread examiner regains spent legendary actions at the start of its turn.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">@UUID[Actor.YCtxO4OFcwdr79Ta.Item.vTvnMb8czDpBe7mO]{Teleport}</li><li class=\"rd__li \">@UUID[Actor.YCtxO4OFcwdr79Ta.Item.keN1njgxKx1L8EMr]{Reform}</li><li class=\"rd__li \">@UUID[Actor.YCtxO4OFcwdr79Ta.Item.5afArRuza5dccrzX]{Psychic Surge}</li></ul></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "formula": "",
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/skills/targeting/target-strike-triple-blue.webp",
+      "flags": {
+        "plutonium": {
+          "dedupeId": "legendaryActions"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897548,
+        "modifiedTime": 1722772897548,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.SdYT1vGDxpjTlMLJ"
+    },
+    {
+      "_id": "bTYtxPoVSWXF9Y6C",
+      "name": "Lair: Animate Device",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A device the dread examiner can see within 120 feet of it briefly animates, reaching out with grasping appendages at a creature within 10 feet of the device. The target must succeed on a [[/save ability=dexterity dc=20]] saving throw or take 14 ([[/damage 4d6 type=bludgeoning]]) damage and be &amp;Reference[condition=restrained]. A creature, including the &amp;Reference[condition=restrained] creature, can take its action to break free by succeeding on a [[/save ability=strength dc=20]] check.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d6",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "ability": "dex",
+          "dc": 20,
+          "scaling": "str"
+        },
+        "activation": {
+          "type": "lair",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+      "flags": {
+        "midiProperties": {
+          "nodam": true
+        },
+        "plutonium": {
+          "page": "monsterLairActions",
+          "source": "ToB3",
+          "hash": "lair%3a%20animate%20device_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [
+        {
+          "name": "Lair: Animate Device",
+          "icon": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+          "changes": [
+            {
+              "key": "StatusEffect",
+              "mode": 0,
+              "value": "Convenient Effect: Restrained",
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "lair-animate-device"
+            }
+          },
+          "_id": "jUyEMMjJboTJcHVu",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!YCtxO4OFcwdr79Ta.bTYtxPoVSWXF9Y6C.jUyEMMjJboTJcHVu"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897590,
+        "modifiedTime": 1722772897590,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.bTYtxPoVSWXF9Y6C"
+    },
+    {
+      "_id": "2DpU14tdjSNwvy0H",
+      "name": "Lair: Psychedelic Gas",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Cannisters of strange gas release their contents in a 20-foot radius centered on a point the dread examiner can see within 120 feet it. Each creature in the area must make a [[/save ability=constitution dc=20]] saving throw. On a failure it takes 11 ([[/damage 2d10]]) poison and 11 ([[/damage 2d10 type=psychic]]) damage and is &amp;Reference[condition=poisoned] until the end of its next turn. On a success, it takes half the damage and isn't &amp;Reference[condition=poisoned].</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d10",
+              "psychic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "ability": "con",
+          "dc": 20,
+          "scaling": "str"
+        },
+        "activation": {
+          "type": "lair",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "value": 20,
+          "units": "ft",
+          "type": "radius",
+          "prompt": true,
+          "width": null
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+      "flags": {
+        "midiProperties": {
+          "nodam": true
+        },
+        "plutonium": {
+          "page": "monsterLairActions",
+          "source": "ToB3",
+          "hash": "lair%3a%20psychedelic%20gas_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897631,
+        "modifiedTime": 1722772897631,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.2DpU14tdjSNwvy0H"
+    },
+    {
+      "_id": "gkNvk8vEOCHyMm8J",
+      "name": "Lair: Shrieking Crystal",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A glowing crystal the dread examiner can see within 120 feet of it emits a screech and burst of light. Each creature within 20 feet of the crystal must succeed on a [[/save ability=constitution dc=20]] saving throw or be &amp;Reference[condition=blinded] and &amp;Reference[condition=deafened] until the end its next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "ability": "con",
+          "dc": 20,
+          "scaling": "str"
+        },
+        "activation": {
+          "type": "lair",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterLairActions",
+          "source": "ToB3",
+          "hash": "lair%3a%20shrieking%20crystal_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [
+        {
+          "name": "Lair: Shrieking Crystal",
+          "icon": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+          "changes": [
+            {
+              "key": "StatusEffect",
+              "mode": 0,
+              "value": "Convenient Effect: Blinded",
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "lair-shrieking-crystal"
+            }
+          },
+          "_id": "yuJbQuK5TfiUe2T2",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!YCtxO4OFcwdr79Ta.gkNvk8vEOCHyMm8J.yuJbQuK5TfiUe2T2"
+        },
+        {
+          "name": "Lair: Shrieking Crystal",
+          "icon": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+          "changes": [
+            {
+              "key": "StatusEffect",
+              "mode": 0,
+              "value": "Convenient Effect: Deafened",
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "lair-shrieking-crystal-0"
+            }
+          },
+          "_id": "rqjZjhtGsLmdcoUl",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!YCtxO4OFcwdr79Ta.gkNvk8vEOCHyMm8J.rqjZjhtGsLmdcoUl"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897668,
+        "modifiedTime": 1722772897668,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.gkNvk8vEOCHyMm8J"
+    },
+    {
+      "_id": "S6Y4X5MWMOj5j8PT",
+      "name": "Regional Effects",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The region containing the dread examiner's lair is warped by its unnatural presence, which creates one or more of the following effects:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Bountiful Aberrations.</span> Within 5 miles of the lair, aberrations and mutated creatures are more common.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Hallucinations.</span> Creatures with an Intelligence score of 5 or higher regularly see mirages and experience similar visual hallucinations while within 1 mile of the lair.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Strange Phenomena.</span> The dread examiner's psychic emanations have strange effects on wildlife within 3 miles of the lair, causing one or more of the following phenomena: flocks of birds flying in strange formations, ominous symbols forming in the air from clouds, pollen, floating leaves, or similar airborne objects, Beasts becoming uncharacteristically aggressive or reckless.</p></li></ul><p>If the dread examiner dies or departs the region for more than 24 hours, these effects fade over the course of [[/r 1d10]] days.</p></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true,
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "summons": null,
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/air/wind-tornado-funnel-damage-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterRegionalEffects",
+          "source": "ToB3",
+          "hash": "regional%20effects_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897705,
+        "modifiedTime": 1722772897705,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.S6Y4X5MWMOj5j8PT"
+    },
+    {
+      "name": "True Polymorph",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "283",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Choose one creature or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into a nonmagical object, or the object into a creature (the object must be neither worn nor carried by another creature). The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation lasts until it is dispelled.</p><div class=\"rd__spc-inline-post\"></div><p>This spell has no effect on a shapechanger or a creature with 0 hit points. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Creature into Creature.</span></span> <p>If you turn a creature into another kind of creature, the new form can be any kind you choose whose challenge rating is equal to or less than the target's (or its level, if the target doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the new form. It retains its alignment and personality.</p><div class=\"rd__spc-inline-post\"></div></div><p>The target assumes the hit points of its new form, and when it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked &amp;Reference[condition=unconscious].</p><p>The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech unless its new form is capable of such actions.</p><p>The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Object into Creature.</span></span> <p>You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature's challenge rating is <a href=\"https://5etools-mirror-2.github.io/bestiary.html#blankhash,flstchallenge%20rating:min=&amp;0~max=&amp;9,flstmiscellaneous:swarm=2\">9 or lower</a>. The creature is friendly to you and your companions. It acts on each of your turns. You decide what action it takes and how it moves. The DM has the creature's statistics and resolves all of its actions and movement.</p><div class=\"rd__spc-inline-post\"></div></div><p>If the spell becomes permanent, you no longer control the creature. It might remain friendly to you, depending on how you have treated it.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Creature into Object.</span></span> <p>If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form, as long as the object's size is no larger than the creature's size. The creature's statistics become those of the object, and the creature has no memory of time spent in this form, after the spell ends and it returns to its normal form.</p><div class=\"rd__spc-inline-post\"></div></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 9,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a drop of mercury, a dollop of gum arabic, and a wisp of smoke",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 30,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "ability": "cha",
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day",
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "true%20polymorph_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "Q1fz0wEGRrZzKsmS",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897761,
+        "modifiedTime": 1722772897761,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.Q1fz0wEGRrZzKsmS"
+    },
+    {
+      "name": "Animate Objects",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "213",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.</p><div class=\"rd__spc-inline-post\"></div><p>As a bonus action, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.</p><table class=\"w-100 rd__table  stripe-odd-table\"><caption>Animated Object Statistics</caption><thead><tr><th class=\"ve-col-2\" data-rd-isroller=\"false\">Size</th><th class=\"ve-col-1 ve-text-center\" data-rd-isroller=\"false\">HP</th><th class=\"ve-col-1 ve-text-center\" data-rd-isroller=\"false\">AC</th><th class=\"ve-col-6\" data-rd-isroller=\"false\">Attack</th><th class=\"ve-col-1 ve-text-center\" data-rd-isroller=\"false\">Str</th><th class=\"ve-col-1 ve-text-center\" data-rd-isroller=\"false\">Dex</th></tr></thead><tbody><tr><td class=\"ve-col-2\">@creature[animated object (tiny)|phb|Tiny]</td><td class=\"ve-col-1 ve-text-center\">20</td><td class=\"ve-col-1 ve-text-center\">18</td><td class=\"ve-col-6\">[[/r 1d20+8]]{+8} to hit, [[/damage 1d4 + 4]] damage</td><td class=\"ve-col-1 ve-text-center\">[[/r 1d20 - 3]]{4}</td><td class=\"ve-col-1 ve-text-center\">[[/r 1d20 + 4]]{18}</td></tr><tr><td class=\"ve-col-2\">@creature[animated object (small)|phb|Small]</td><td class=\"ve-col-1 ve-text-center\">25</td><td class=\"ve-col-1 ve-text-center\">16</td><td class=\"ve-col-6\">[[/r 1d20+6]]{+6} to hit, [[/damage 1d8 + 2]] damage</td><td class=\"ve-col-1 ve-text-center\">[[/r 1d20 - 2]]{6}</td><td class=\"ve-col-1 ve-text-center\">[[/r 1d20 + 2]]{14}</td></tr><tr><td class=\"ve-col-2\">@creature[animated object (medium)|phb|Medium]</td><td class=\"ve-col-1 ve-text-center\">40</td><td class=\"ve-col-1 ve-text-center\">13</td><td class=\"ve-col-6\">[[/r 1d20+5]]{+5} to hit, [[/damage 2d6 + 1]] damage</td><td class=\"ve-col-1 ve-text-center\">[[/r 1d20]]{10}</td><td class=\"ve-col-1 ve-text-center\">[[/r 1d20 + 1]]{12}</td></tr><tr><td class=\"ve-col-2\">@creature[animated object (large)|phb|Large]</td><td class=\"ve-col-1 ve-text-center\">50</td><td class=\"ve-col-1 ve-text-center\">10</td><td class=\"ve-col-6\">[[/r 1d20+6]]{+6} to hit, [[/damage 2d10 + 2]] damage</td><td class=\"ve-col-1 ve-text-center\">[[/r 1d20 + 2]]{14}</td><td class=\"ve-col-1 ve-text-center\">[[/r 1d20]]{10}</td></tr><tr><td class=\"ve-col-2\">@creature[animated object (huge)|phb|Huge]</td><td class=\"ve-col-1 ve-text-center\">80</td><td class=\"ve-col-1 ve-text-center\">10</td><td class=\"ve-col-6\">[[/r 1d20+8]]{+8} to hit, [[/damage 2d12 + 4]] damage</td><td class=\"ve-col-1 ve-text-center\">[[/r 1d20 + 4]]{18}</td><td class=\"ve-col-1 ve-text-center\">[[/r 1d20 - 3]]{6}</td></tr></tbody></table><p>An animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determined by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.</p><p>If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and bludgeoning damage determined by its size. The DM might rule that a specific object inflicts slashing or piercing damage based on its form.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "summ",
+        "level": 5,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 10,
+          "units": "",
+          "type": "object",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 120,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "cha",
+          "ability": ""
+        },
+        "ability": "cha",
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/sundries/gaming/chess-pawn-white-pink.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "animate%20objects_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "jChZZijmTObul1Ag",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897823,
+        "modifiedTime": 1722772897823,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.jChZZijmTObul1Ag"
+    },
+    {
+      "name": "Wall of Force",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "285",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).</p><div class=\"rd__spc-inline-post\"></div><p>Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by @spell[dispel magic]. A @spell[disintegrate] spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 5,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a pinch of powder made by crushing a clear gemstone",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 100,
+          "units": "ft",
+          "type": "wall",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 120,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "cha",
+          "ability": ""
+        },
+        "ability": "cha",
+        "uses": {
+          "value": 3,
+          "max": "3",
+          "per": "day",
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "wall%20of%20force_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "Kmi7kIGBPw1IjUv7",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897878,
+        "modifiedTime": 1722772897878,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.Kmi7kIGBPw1IjUv7"
+    },
+    {
+      "name": "Dispel Magic",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "234",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 3,
+        "school": "abj",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 120,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "cha",
+          "ability": ""
+        },
+        "ability": "cha",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/nature/plant-sprout-hand-blue.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "dispel%20magic_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "1SPO5fORlRLl9ogd",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897931,
+        "modifiedTime": 1722772897931,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.1SPO5fORlRLl9ogd"
+    },
+    {
+      "name": "Fabricate",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "239",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, and clothes from flax or wool.</p><div class=\"rd__spc-inline-post\"></div><p>Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or eight connected 5-foot cubes), given a sufficient quantity of raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of objects made by the spell is commensurate with the quality of the raw materials.</p><p>Creatures or magic items can't be created or transmuted by this spell. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of artisan's tools used to craft such objects.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 4,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 10,
+          "units": "ft",
+          "type": "cube",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 120,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "minute",
+          "cost": 10,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "cha",
+          "ability": ""
+        },
+        "ability": "cha",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/skills/trades/smithing-anvil-silver-red.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "fabricate_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "ifsYKcgyj3CvD4CJ",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772897979,
+        "modifiedTime": 1722772897979,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.ifsYKcgyj3CvD4CJ"
+    },
+    {
+      "name": "Telekinesis",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "280",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p><div class=\"rd__spc-inline-post\"></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Creature.</span></span> <p>You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is &amp;Reference[condition=restrained] in your telekinetic grip. A creature lifted upward is suspended in mid-air.</p><div class=\"rd__spc-inline-post\"></div><p>On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.</p></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Object.</span></span> <p>You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell.</p><div class=\"rd__spc-inline-post\"></div><p>If the object is worn or carried by a creature, you must make an ability check with your spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.</p><p>You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</p></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 5,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 60,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "cha",
+          "ability": ""
+        },
+        "ability": "cha",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "telekinesis_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [
+        {
+          "name": "Restrained",
+          "icon": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+          "changes": [
+            {
+              "key": "StatusEffect",
+              "mode": 0,
+              "value": "Convenient Effect: Restrained",
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "restrained"
+            }
+          },
+          "_id": "0fqdxzOxXC8FGhcN",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!YCtxO4OFcwdr79Ta.MIiNXSX6xFCal5AC.0fqdxzOxXC8FGhcN"
+        }
+      ],
+      "_id": "MIiNXSX6xFCal5AC",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772898042,
+        "modifiedTime": 1722772898042,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.MIiNXSX6xFCal5AC"
+    },
+    {
+      "_id": "NQahzkGTWsg8l3xs",
+      "name": "Spellcasting (Psionics)",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "ToB3",
+          "page": "159",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Spellcasting (Psionics).</span></span> <p>The dread examiner casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">22</span>):</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.YCtxO4OFcwdr79Ta.Item.1SPO5fORlRLl9ogd], @UUID[Actor.YCtxO4OFcwdr79Ta.Item.ifsYKcgyj3CvD4CJ] (as an action), @UUID[Actor.YCtxO4OFcwdr79Ta.Item.MIiNXSX6xFCal5AC]</p></li><li class=\"rd__li  rd__li-spell\"><p>3/day each: @UUID[Actor.YCtxO4OFcwdr79Ta.Item.jChZZijmTObul1Ag], @UUID[Actor.YCtxO4OFcwdr79Ta.Item.Kmi7kIGBPw1IjUv7]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day: @UUID[Actor.YCtxO4OFcwdr79Ta.Item.Q1fz0wEGRrZzKsmS]</p></li></ul></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "prompt": true
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "actionType": null,
+        "formula": "",
+        "summons": null,
+        "properties": [],
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/light/beam-rays-magenta-large.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterSpellcasting",
+          "source": "ToB3",
+          "hash": "spellcasting%20(psionics)_dread%20examiner_tob3_tob3"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722772898080,
+        "modifiedTime": 1722772898080,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!YCtxO4OFcwdr79Ta.NQahzkGTWsg8l3xs"
+    }
+  ],
+  "effects": [],
+  "folder": "svokxtpIiIWzGtDX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "cm8ahpcp3la1d2oY": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "11.315",
+    "createdTime": 1722772896763,
+    "modifiedTime": 1722774733060,
+    "lastModifiedBy": "cm8ahpcp3la1d2oY"
+  },
+  "_key": "!actors!YCtxO4OFcwdr79Ta"
+}

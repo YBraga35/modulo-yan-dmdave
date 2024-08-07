@@ -1,0 +1,4152 @@
+{
+  "name": "Mage (Familiar)",
+  "type": "npc",
+  "flags": {
+    "plutonium": {
+      "page": "bestiary.html",
+      "source": "MM",
+      "hash": "mage%20(familiar)_mm"
+    },
+    "monks-little-details": {
+      "sound-effect": "https://5etools-mirror-2.github.io/audio/bestiary/mage.mp3"
+    }
+  },
+  "_id": "joVYStllRo2EM8tM",
+  "img": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Mage.webp",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 9,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "con": {
+        "value": 11,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "int": {
+        "value": 17,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      },
+      "cha": {
+        "value": 11,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": "0"
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "0",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": null
+      },
+      "spell2": {
+        "value": 3,
+        "override": null
+      },
+      "spell3": {
+        "value": 3,
+        "override": null
+      },
+      "spell4": {
+        "value": 3,
+        "override": null
+      },
+      "spell5": {
+        "value": 1,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": "0"
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "ac": {
+        "flat": null,
+        "calc": "default"
+      },
+      "hp": {
+        "value": 40,
+        "max": 40,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "9d8"
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--1\"><div class=\"rd__b  rd__b--2\"><p>Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference.</p></div></div>",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": null,
+      "type": {
+        "value": "humanoid",
+        "subtype": "any race"
+      },
+      "environment": "Urban",
+      "cr": 6,
+      "spellLevel": 9,
+      "source": {
+        "book": "MM",
+        "page": "347",
+        "custom": "",
+        "license": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "any four languages"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Mage (Familiar)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/MM/Mage.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": "skills.prc.passive"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "system": {
+        "type": {
+          "value": "simpleM",
+          "baseItem": "dagger"
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]]{+5} to hit, reach 5 ft., one target. <i>Hit:</i> 4 ([[/damage 1d4 + 2 type=piercing]]) damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "347",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": 1,
+        "price": {
+          "value": 2,
+          "denomination": "gp"
+        },
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "properties": [
+          "fin",
+          "lgt",
+          "thr"
+        ],
+        "proficient": 1,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "crewed": false,
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "summons": {
+          "match": {
+            "attacks": false,
+            "proficiency": false,
+            "saves": false
+          },
+          "profiles": [],
+          "bonuses": {},
+          "prompt": true
+        },
+        "magicalBonus": null
+      },
+      "_id": "v2XRzk2SFJzV35rV",
+      "name": "Dagger (Melee)",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-black.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "MM",
+          "hash": "dagger%20(melee)_mage%20(familiar)_mm_mm"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770325847,
+        "modifiedTime": 1722770325847,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.v2XRzk2SFJzV35rV"
+    },
+    {
+      "system": {
+        "type": {
+          "value": "simpleM",
+          "baseItem": "dagger"
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+5]]{+5} to hit, range 20/60 ft., one target. <i>Hit:</i> 4 ([[/damage 1d4 + 2 type=piercing]]) damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "347",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": 1,
+        "price": {
+          "value": 2,
+          "denomination": "gp"
+        },
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 20,
+          "long": 60,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "properties": [
+          "fin",
+          "lgt",
+          "thr"
+        ],
+        "proficient": 1,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "crewed": false,
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "summons": {
+          "match": {
+            "attacks": false,
+            "proficiency": false,
+            "saves": false
+          },
+          "profiles": [],
+          "bonuses": {},
+          "prompt": true
+        },
+        "magicalBonus": null
+      },
+      "_id": "7w4hz1vblqU6syH0",
+      "name": "Dagger (Ranged)",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-black.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterAction",
+          "source": "MM",
+          "hash": "dagger%20(ranged)_mage%20(familiar)_mm_mm"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770325847,
+        "modifiedTime": 1722770325847,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.7w4hz1vblqU6syH0"
+    },
+    {
+      "name": "Fire Bolt",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "242",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes [[/damage 1d10 type=fire]] damage. A flammable object hit by this spell ignites if it isn't being worn or carried.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d10]] when you reach 5th level ([[/damage 2d10]]), 11th level ([[/damage 3d10]]), and 17th level ([[/damage 4d10]]).</p></div>",
+          "chat": ""
+        },
+        "actionType": "rsak",
+        "level": 0,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 120,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d10",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": "1d10"
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/fire/projectile-bolt-zigzag-orange.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "fire%20bolt_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "gdWezcl5gUaREbQm",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770325922,
+        "modifiedTime": 1722770325922,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.gdWezcl5gUaREbQm"
+    },
+    {
+      "name": "Light",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "255",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.</p><div class=\"rd__spc-inline-post\"></div><p>If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</p></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 0,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "material"
+        ],
+        "materials": {
+          "value": "a firefly or phosphorescent moss",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "touch",
+          "type": "object",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "touch",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "int"
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/light/orb-lightbulb-gray.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "light_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true,
+          "autoFailFriendly": true
+        },
+        "midi-qol": {
+          "forceCEOff": true
+        }
+      },
+      "effects": [
+        {
+          "name": "Light",
+          "icon": "icons/magic/light/orb-lightbulb-gray.webp",
+          "changes": [
+            {
+              "key": "ATL.light.dim",
+              "mode": 5,
+              "value": "40",
+              "priority": 20
+            },
+            {
+              "key": "ATL.light.bright",
+              "mode": 5,
+              "value": "20",
+              "priority": 20
+            },
+            {
+              "key": "ATL.light.color",
+              "mode": 5,
+              "value": "#ffffff",
+              "priority": 20
+            },
+            {
+              "key": "ATL.light.alpha",
+              "mode": 5,
+              "value": "0.25",
+              "priority": 20
+            },
+            {
+              "key": "ATL.light.animation",
+              "mode": 5,
+              "value": "{\"type\": \"pulse\", \"speed\": 3,\"intensity\": 1}",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "stackable": "noneName",
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "midi-qol": {
+              "forceCEOff": true
+            },
+            "plutonium": {
+              "dedupeId": "light"
+            }
+          },
+          "_id": "o29z41h8NvOq0a3X",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!joVYStllRo2EM8tM.SCzYzdU0ALo2dGwX.o29z41h8NvOq0a3X"
+        }
+      ],
+      "_id": "SCzYzdU0ALo2dGwX",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770325984,
+        "modifiedTime": 1722770325984,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.SCzYzdU0ALo2dGwX"
+    },
+    {
+      "name": "Mage Hand",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "256",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><div class=\"rd__spc-inline-post\"></div><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 0,
+        "school": "con",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "space",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 30,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/light/orbs-hand-gray.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "mage%20hand_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "eruTJimohI5sfI9e",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770326048,
+        "modifiedTime": 1722770326048,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.eruTJimohI5sfI9e"
+    },
+    {
+      "name": "Prestidigitation",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "267",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li><li class=\"rd__li \">You instantaneously light or snuff out a candle, a torch, or a small campfire.</li><li class=\"rd__li \">You instantaneously clean or soil an object no larger than 1 cubic foot.</li><li class=\"rd__li \">You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li><li class=\"rd__li \">You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li><li class=\"rd__li \">You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li></ul><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 0,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 0,
+          "units": "",
+          "type": "",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 10,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/light/hand-sparks-smoke-green.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "prestidigitation_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "bHR4VAZKNRjcczjB",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770326106,
+        "modifiedTime": 1722770326106,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.bHR4VAZKNRjcczjB"
+    },
+    {
+      "name": "Detect Magic",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "231",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its <a href=\"https://5etools-mirror-2.github.io/book.html#PHB,10,the%20schools%20of%20magic,0\">school of magic</a>, if any.</p><div class=\"rd__spc-inline-post\"></div><p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 1,
+        "school": "div",
+        "properties": [
+          "vocal",
+          "somatic",
+          "ritual",
+          "concentration"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 30,
+          "units": "ft",
+          "type": "radius",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "self",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/unholy/hands-cloud-light-pink.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "detect%20magic_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "LeksxjrPvk49F7xd",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770326162,
+        "modifiedTime": 1722770326162,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.LeksxjrPvk49F7xd"
+    },
+    {
+      "name": "Find Familiar",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "240",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You gain the service of a familiar, a spirit that takes an animal form you choose: @creature[bat], @creature[cat], @creature[crab], @creature[frog] (toad), @creature[hawk], @creature[lizard], @creature[octopus], @creature[owl], @creature[poisonous snake], fish (@creature[quipper]), @creature[rat], @creature[raven], @creature[sea horse], @creature[spider], or @creature[weasel]. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.</p><div class=\"rd__spc-inline-post\"></div><p><i class=\"ve-muted\">Additional <a href=\"https://5etools-mirror-2.github.io/bestiary.html#blankhash,flstmiscellaneous:familiar=1\">animal form choices</a> may be available at the DM's discretion.</i></p><p>Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.</p><p>When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. As an action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. Whenever the familiar drops to 0 hit points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.</p><p>While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are &amp;Reference[condition=deafened]{deaf} and &amp;Reference[condition=blinded]{blind} with regard to your own senses.</p><p>You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.</p><p>Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll.</p></div>",
+          "chat": ""
+        },
+        "actionType": "other",
+        "level": 1,
+        "school": "con",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "ritual",
+          "mgc"
+        ],
+        "materials": {
+          "value": "10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier",
+          "consumed": true,
+          "cost": 10,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": "",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 10,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "hour",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "spell",
+          "ability": ""
+        },
+        "ability": "",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "target": "",
+          "type": "",
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/creatures/birds/corvid-call-sound-glowing.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "find%20familiar_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "concentration": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false,
+          "confirmTargets": "default",
+          "noConcentrationCheck": false
+        },
+        "midi-qol": {
+          "effectActivation": false,
+          "onUseMacroName": "[postActiveEffects]function.chrisPremades.macros.findFamiliar.item",
+          "onUseMacroParts": {
+            "items": {
+              "0": {
+                "macroName": "function.chrisPremades.macros.findFamiliar.item",
+                "option": "postActiveEffects"
+              }
+            }
+          },
+          "rollAttackPerTarget": "default",
+          "itemCondition": "",
+          "effectCondition": ""
+        },
+        "chris-premades": {
+          "info": {
+            "name": "Find Familiar",
+            "version": "0.7.03",
+            "mutation": {
+              "self": "Find Familiar"
+            },
+            "source": "CPR"
+          }
+        },
+        "dnd5e": {},
+        "rest-recovery": {
+          "data": {
+            "recovery": {
+              "enabled": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "_id": "O4akvKQ1VkDv6q7K",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770326222,
+        "modifiedTime": 1722770326222,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.O4akvKQ1VkDv6q7K"
+    },
+    {
+      "name": "Mage Armor",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "256",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 1,
+        "school": "abj",
+        "properties": [],
+        "materials": {
+          "value": "A piece of cured leather",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": null,
+          "units": "touch",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "8",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "mage%20armor_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        },
+        "dynamiceffects": {
+          "effects": [
+            {
+              "modSpecKey": "data.attributes.ac.value",
+              "value": "13 + @abilities.dex.mod",
+              "mode": "=",
+              "targetSpecific": false,
+              "id": 1,
+              "itemId": "KWepVspVtjeboJgf",
+              "active": true,
+              "_targets": []
+            }
+          ],
+          "alwaysActive": false,
+          "equipActive": true
+        },
+        "dae": {
+          "activeEquipped": false,
+          "alwaysActive": false
+        },
+        "midi-qol": {
+          "onUseMacroName": "",
+          "effectActivation": false,
+          "forceCEOn": false
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "somatic",
+            "material"
+          ]
+        }
+      },
+      "effects": [
+        {
+          "name": "Mage Armor",
+          "icon": "icons/equipment/chest/breastplate-helmet-metal.webp",
+          "changes": [
+            {
+              "key": "system.attributes.ac.calc",
+              "mode": 5,
+              "value": "mage",
+              "priority": 5
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "core": {
+              "statusId": ""
+            },
+            "dae": {
+              "stackable": "none",
+              "macroRepeat": "none",
+              "specialDuration": [],
+              "transfer": false,
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "plutonium": {
+              "dedupeId": "mage-armor"
+            }
+          },
+          "_id": "XRkvYT9cV0BX5oJc",
+          "tint": null,
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!joVYStllRo2EM8tM.DwSzOgu53P5dDbwW.XRkvYT9cV0BX5oJc"
+        }
+      ],
+      "_id": "DwSzOgu53P5dDbwW",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770326286,
+        "modifiedTime": 1722770326286,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.DwSzOgu53P5dDbwW"
+    },
+    {
+      "name": "Magic Missile",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "257",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals [[/damage 1d4 + 1 type=force]] damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "other",
+        "level": 1,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 120,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "spell",
+          "ability": ""
+        },
+        "ability": "",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/light/projectile-stars-blue.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "magic%20missile_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": false,
+          "magiceffect": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "concentration": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false
+        },
+        "rest-recovery": {
+          "data": {
+            "recovery": {
+              "enabled": false
+            }
+          }
+        },
+        "midi-qol": {
+          "effectActivation": false,
+          "onUseMacroName": "[postActiveEffects]function.chrisPremades.macros.magicMissile",
+          "onUseMacroParts": {
+            "items": {
+              "0": {
+                "macroName": "function.chrisPremades.macros.magicMissile",
+                "option": "postActiveEffects"
+              }
+            }
+          }
+        },
+        "autoanimations": {
+          "id": "1853f6fd-6a5e-4a80-badd-35379747b8e8",
+          "label": "Magic Missile",
+          "levels3d": {
+            "type": "explosion",
+            "data": {
+              "color01": "#FFFFFF",
+              "color02": "#FFFFFF",
+              "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+            },
+            "sound": {
+              "enable": false
+            },
+            "secondary": {
+              "enable": false,
+              "data": {
+                "color01": "#FFFFFF",
+                "color02": "#FFFFFF",
+                "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+              }
+            }
+          },
+          "macro": {
+            "enable": false
+          },
+          "meleeSwitch": {
+            "video": {
+              "dbSection": "range",
+              "menuType": "weapon",
+              "animation": "arrow",
+              "variant": "regular",
+              "color": "regular"
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "detect": "automatic",
+              "range": 2,
+              "returning": false,
+              "switchType": "on"
+            }
+          },
+          "menu": "melee",
+          "primary": {
+            "video": {
+              "dbSection": "melee",
+              "menuType": "weapon",
+              "animation": "club",
+              "variant": "01",
+              "color": "white",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "isWait": false,
+              "opacity": 1,
+              "playbackRate": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "secondary": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1.5,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "soundOnly": {
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            }
+          },
+          "source": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": true,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "target": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "opacity": 1,
+              "persistent": false,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "isEnabled": false,
+          "isCustomized": false,
+          "fromAmmo": false,
+          "version": 5
+        },
+        "chris-premades": {
+          "info": {
+            "name": "Magic Missile",
+            "version": "0.7.45",
+            "hasAnimation": true,
+            "source": "CPR"
+          }
+        },
+        "dnd5e": {}
+      },
+      "effects": [],
+      "_id": "EM2F8KUn3VzpCe7d",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770326352,
+        "modifiedTime": 1722770326352,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.EM2F8KUn3VzpCe7d"
+    },
+    {
+      "name": "Shield",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "275",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from @spell[magic missile].</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 1,
+        "school": "abj",
+        "properties": [],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": "self",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": null,
+          "units": "self",
+          "long": null
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": "Which you take when you are hit by an attack or targeted by the magic missile spell"
+        },
+        "duration": {
+          "value": "1",
+          "units": "round"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "shield_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        },
+        "dynamiceffects": {
+          "equipActive": true,
+          "alwaysActive": false,
+          "effects": [
+            {
+              "modSpecKey": "data.attributes.ac.value",
+              "value": "5",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 1,
+              "itemId": "sEwmlXP3wXnd41oR",
+              "active": true,
+              "_targets": []
+            }
+          ]
+        },
+        "midi-qol": {
+          "onUseMacroName": ""
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal",
+            "somatic"
+          ]
+        }
+      },
+      "effects": [
+        {
+          "name": "Shield",
+          "icon": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+          "changes": [
+            {
+              "key": "system.attributes.ac.bonus",
+              "mode": 2,
+              "value": "+5",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "plutonium": {
+              "dedupeId": "shield"
+            }
+          },
+          "_id": "hzQdCAC3gFDfLREf",
+          "tint": null,
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!joVYStllRo2EM8tM.m2zjC5VzWSGzDTXC.hzQdCAC3gFDfLREf"
+        }
+      ],
+      "_id": "m2zjC5VzWSGzDTXC",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770326841,
+        "modifiedTime": 1722770326841,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.m2zjC5VzWSGzDTXC"
+    },
+    {
+      "name": "Misty Step",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "260",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 2,
+        "school": "con",
+        "properties": [],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": "self",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": null,
+          "units": "self",
+          "long": null
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "ability": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/water/projectile-ice-impact-stone.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "misty%20step_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        },
+        "itemacro": {
+          "macro": {
+            "data": {
+              "_id": null,
+              "name": "Misty Step",
+              "type": "script",
+              "author": "Jwooh1sMQvmhHrUO",
+              "img": "icons/svg/dice-target.svg",
+              "scope": "global",
+              "command": "MidiMacros.mistyStep(args)",
+              "folder": null,
+              "sort": 0,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            }
+          }
+        },
+        "dae": {
+          "activeEquipped": false,
+          "alwaysActive": false
+        },
+        "midi-qol": {
+          "onUseMacroName": "",
+          "effectActivation": false
+        },
+        "dnd5e": {
+          "migratedProperties": [
+            "vocal"
+          ]
+        }
+      },
+      "effects": [
+        {
+          "name": "Misty Step",
+          "icon": "icons/magic/water/projectile-ice-impact-stone.webp",
+          "changes": [
+            {
+              "key": "macro.itemMacro",
+              "mode": 0,
+              "value": "@target",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "turns": 1,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "plutonium": {
+              "dedupeId": "misty-step"
+            }
+          },
+          "_id": "co3tPOrzgA6gTwI9",
+          "tint": null,
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!joVYStllRo2EM8tM.13HWiARTlZ2vhaIG.co3tPOrzgA6gTwI9"
+        }
+      ],
+      "_id": "13HWiARTlZ2vhaIG",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770327088,
+        "modifiedTime": 1722770327088,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.13HWiARTlZ2vhaIG"
+    },
+    {
+      "name": "Suggestion",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "279",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can't be &amp;Reference[condition=charmed] are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.</p><p>You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't performed.</p><p>If you or any of your companions damage the target, the spell ends.</p></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 2,
+        "school": "enc",
+        "properties": [
+          "vocal",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a snake's tongue and either a bit of honeycomb or a drop of sweet oil",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 30,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "8",
+          "units": "hour"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "int"
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "suggestion_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "sEYZGuX9oFuwhryY",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770327211,
+        "modifiedTime": 1722770327211,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.sEYZGuX9oFuwhryY"
+    },
+    {
+      "name": "Counterspell",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "228",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 3,
+        "school": "abj",
+        "properties": [
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 60,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "reactionmanual",
+          "cost": 1,
+          "condition": "which you take when you see a creature within 60 feet of you casting a spell"
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/creatures/abilities/wolf-heads-swirl-purple.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "counterspell_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "N0MDy7gHVp6WO9ZW",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770327300,
+        "modifiedTime": 1722770327300,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.N0MDy7gHVp6WO9ZW"
+    },
+    {
+      "name": "Fireball",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "241",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes [[/damage 8d6 type=fire]] damage on a failed save, or half as much damage on a successful one.</p><div class=\"rd__spc-inline-post\"></div><p>The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the damage increases by [[/damage 1d6]] for each slot level above 3rd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 3,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a tiny ball of bat guano and sulfur",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 20,
+          "units": "ft",
+          "type": "sphere",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 150,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "8d6",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d6"
+        },
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "int"
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/fire/projectile-fireball-smoke-strong-orange.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "fireball_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "StNQg2ZwEgz8CRLs",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770327371,
+        "modifiedTime": 1722770327371,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.StNQg2ZwEgz8CRLs"
+    },
+    {
+      "name": "Fly",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "243",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "other",
+        "level": 3,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a wing feather from any bird",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": null,
+          "units": "touch",
+          "long": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "spell",
+          "ability": ""
+        },
+        "ability": "",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/creatures/abilities/wings-birdlike-blue.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "fly_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": false,
+          "magiceffect": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "autoFailFriendly": false,
+          "autoSaveFriendly": false,
+          "rollOther": false,
+          "critOther": false,
+          "offHandWeapon": false,
+          "concentration": false,
+          "toggleEffect": false,
+          "ignoreTotalCover": false,
+          "confirmTargets": "never",
+          "noConcentrationCheck": false
+        },
+        "midi-qol": {
+          "forceCEOff": true,
+          "effectActivation": false,
+          "forceCEOn": false,
+          "rollAttackPerTarget": "default",
+          "itemCondition": "",
+          "reactionCondition": "",
+          "otherCondition": "",
+          "effectCondition": ""
+        },
+        "rest-recovery": {
+          "data": {
+            "recovery": {
+              "enabled": false
+            }
+          }
+        },
+        "chris-premades": {
+          "info": {
+            "name": "Fly",
+            "version": "0.7.45",
+            "hasAnimation": true,
+            "source": "CPR"
+          }
+        },
+        "autoanimations": {
+          "id": "a21b3999-3913-4ed7-a1d5-16c6740c6205",
+          "label": "Fly",
+          "levels3d": {
+            "type": "explosion",
+            "data": {
+              "color01": "#FFFFFF",
+              "color02": "#FFFFFF",
+              "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+            },
+            "sound": {
+              "enable": false
+            },
+            "secondary": {
+              "enable": false,
+              "data": {
+                "color01": "#FFFFFF",
+                "color02": "#FFFFFF",
+                "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+              }
+            }
+          },
+          "macro": {
+            "enable": false
+          },
+          "meleeSwitch": {
+            "video": {
+              "dbSection": "range",
+              "menuType": "weapon",
+              "animation": "arrow",
+              "variant": "regular",
+              "color": "regular"
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "detect": "automatic",
+              "range": 2,
+              "returning": false,
+              "switchType": "on"
+            }
+          },
+          "menu": "melee",
+          "primary": {
+            "video": {
+              "dbSection": "melee",
+              "menuType": "weapon",
+              "animation": "club",
+              "variant": "01",
+              "color": "white",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "isWait": false,
+              "opacity": 1,
+              "playbackRate": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "secondary": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1.5,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "soundOnly": {
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            }
+          },
+          "source": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": true,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "target": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "opacity": 1,
+              "persistent": false,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "isEnabled": false,
+          "isCustomized": false,
+          "fromAmmo": false,
+          "version": 5
+        },
+        "dnd5e": {}
+      },
+      "effects": [
+        {
+          "name": "Fly",
+          "icon": "icons/creatures/abilities/wings-birdlike-blue.webp",
+          "changes": [
+            {
+              "key": "system.attributes.movement.fly",
+              "mode": 4,
+              "value": "60",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "transfer": false,
+              "stackable": "none",
+              "selfTarget": null,
+              "selfTargetAlways": null,
+              "durationExpression": "",
+              "macroRepeat": "none",
+              "specialDuration": []
+            },
+            "ddbimporter": {
+              "disabled": false
+            },
+            "midi-qol": {
+              "forceCEOff": true
+            },
+            "dfreds-convenient-effects": {
+              "description": ""
+            },
+            "core": {
+              "statusId": ""
+            },
+            "ActiveAuras": {
+              "isAura": false,
+              "aura": "None",
+              "radius": "undefined",
+              "alignment": "",
+              "type": "",
+              "ignoreSelf": false,
+              "height": false,
+              "hidden": false,
+              "displayTemp": false,
+              "hostile": false,
+              "onlyOnce": false
+            },
+            "effectmacro": {
+              "onCreate": {
+                "script": "await chrisPremades.macros.fly.animationStart(token, origin);"
+              },
+              "onDelete": {
+                "script": "await await chrisPremades.macros.fly.animationEnd(token, origin);"
+              }
+            },
+            "plutonium": {
+              "dedupeId": "fly"
+            }
+          },
+          "tint": null,
+          "_id": "hTNQ35upupqfnuve",
+          "description": "",
+          "statuses": [],
+          "_key": "!actors.items.effects!joVYStllRo2EM8tM.EJrnkhKaUi9Z9ujF.hTNQ35upupqfnuve"
+        }
+      ],
+      "_id": "EJrnkhKaUi9Z9ujF",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770327448,
+        "modifiedTime": 1722770327448,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.EJrnkhKaUi9Z9ujF"
+    },
+    {
+      "name": "Greater Invisibility",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "246",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You or a creature you touch becomes &amp;Reference[condition=invisible] until the spell ends. Anything the target is wearing or carrying is &amp;Reference[condition=invisible] as long as it is on the target's person.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "util",
+        "level": 4,
+        "school": "ill",
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 1,
+          "units": "touch",
+          "type": "creature",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "touch",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "save": {
+          "dc": null,
+          "scaling": "int",
+          "ability": ""
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "greater%20invisibility_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [
+        {
+          "name": "Greater Invisibility",
+          "icon": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+          "origin": "Compendium.dnd5e.spells.Item.tEpDmYZNGc9f5OhJ",
+          "duration": {
+            "startTime": null,
+            "seconds": 60,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "_id": "lhYVl4DD9jyS5gcn",
+          "changes": [],
+          "description": "<p>The target becomes Invisible until the spell ends. Anything the target is wearing or carrying is Invisible as long as it is on the target's person.</p>",
+          "transfer": false,
+          "statuses": [
+            "invisible"
+          ],
+          "flags": {
+            "dae": {
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "plutonium": {
+              "dedupeId": "greater-invisibility"
+            }
+          },
+          "tint": null,
+          "_key": "!actors.items.effects!joVYStllRo2EM8tM.1xkpqR4DLadfSnde.lhYVl4DD9jyS5gcn"
+        },
+        {
+          "name": "Invisible",
+          "icon": "modules/dfreds-convenient-effects/images/invisible.svg",
+          "changes": [
+            {
+              "key": "flags.midi-qol.advantage.attack.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 7
+            },
+            {
+              "key": "flags.midi-qol.grants.disadvantage.attack.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 7
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "rounds": null,
+            "seconds": null,
+            "turns": null,
+            "startTime": null,
+            "combat": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dfreds-convenient-effects": {
+              "isConvenient": true,
+              "isDynamic": false,
+              "isViewable": true,
+              "nestedEffects": [],
+              "subEffects": []
+            },
+            "dae": {
+              "selfTarget": null,
+              "selfTargetAlways": null
+            },
+            "plutonium": {
+              "dedupeId": "invisible"
+            }
+          },
+          "description": "- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.<br />- Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.",
+          "tint": null,
+          "statuses": [
+            "Convenient Effect: Invisible",
+            "invisible"
+          ],
+          "_id": "7VHxQkHwQHZjV5I4",
+          "_key": "!actors.items.effects!joVYStllRo2EM8tM.1xkpqR4DLadfSnde.7VHxQkHwQHZjV5I4"
+        }
+      ],
+      "_id": "1xkpqR4DLadfSnde",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770327511,
+        "modifiedTime": 1722770327511,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.1xkpqR4DLadfSnde"
+    },
+    {
+      "name": "Ice Storm",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "252",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes [[/damage 2d8 type=bludgeoning]] damage and [[/damage 4d6 type=cold]] damage on a failed save, or half as much damage on a successful one.</p><div class=\"rd__spc-inline-post\"></div><p>Hailstones turn the storm's area of effect into &amp;Reference[rule=difficultterrain]{difficult terrain} until the end of your next turn.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by [[/damage 1d8]] for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 4,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a pinch of dust and a few drops of water",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 20,
+          "units": "ft",
+          "type": "cylinder",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 300,
+          "units": "ft",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d8",
+              "bludgeoning"
+            ],
+            [
+              "4d6",
+              "cold"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        },
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "int"
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/light/projectiles-salvo-teal.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "ice%20storm_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "59ZYZXUv7FXYsG2m",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770327584,
+        "modifiedTime": 1722770327584,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.59ZYZXUv7FXYsG2m"
+    },
+    {
+      "name": "Cone of Cold",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB",
+          "page": "224",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes [[/damage 8d8 type=cold]] damage on a failed save, or half as much damage on a successful one.</p><div class=\"rd__spc-inline-post\"></div><p>A creature killed by this spell becomes a frozen statue until it thaws.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 6th level or higher, the damage increases by [[/damage 1d8]] for each slot level above 5th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "actionType": "save",
+        "level": 5,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "materials": {
+          "value": "a small crystal or glass cone",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "value": 60,
+          "units": "ft",
+          "type": "cone",
+          "prompt": true,
+          "width": null
+        },
+        "range": {
+          "value": 0,
+          "units": "",
+          "long": null
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "damage": {
+          "parts": [
+            [
+              "8d8",
+              "cold"
+            ]
+          ],
+          "versatile": ""
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        },
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "int"
+        },
+        "ability": "int",
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "cover": null,
+        "crewed": false,
+        "summons": null
+      },
+      "img": "icons/magic/air/wind-weather-snow-gusts.webp",
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "cone%20of%20cold_phb",
+          "propDroppable": "spell"
+        },
+        "midiProperties": {
+          "magicdam": true,
+          "magiceffect": true
+        }
+      },
+      "effects": [],
+      "_id": "YLQelBaCaKurPRND",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770327653,
+        "modifiedTime": 1722770327653,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.YLQelBaCaKurPRND"
+    },
+    {
+      "_id": "LWGMofKKk0l3W7tF",
+      "name": "Spellcasting",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM",
+          "page": "347",
+          "license": ""
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Spellcasting.</span></span> <p>The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC <span class=\"rd__dc\">14</span>, [[/r 1d20+6]]{+6} to hit with spell attacks). The mage has the following wizard spells prepared:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>Cantrips (at will): @UUID[Actor.joVYStllRo2EM8tM.Item.gdWezcl5gUaREbQm], @UUID[Actor.joVYStllRo2EM8tM.Item.SCzYzdU0ALo2dGwX], @UUID[Actor.joVYStllRo2EM8tM.Item.eruTJimohI5sfI9e], @UUID[Actor.joVYStllRo2EM8tM.Item.bHR4VAZKNRjcczjB]</p></li><li class=\"rd__li  rd__li-spell\"><p>1st level (4 slots): @UUID[Actor.joVYStllRo2EM8tM.Item.LeksxjrPvk49F7xd], @UUID[Actor.joVYStllRo2EM8tM.Item.O4akvKQ1VkDv6q7K] (one of the creatures described in the spell or some other Tiny monster, such as a @creature[crawling claw], @creature[imp], @creature[pseudodragon], or @creature[quasit]), @UUID[Actor.joVYStllRo2EM8tM.Item.DwSzOgu53P5dDbwW], @UUID[Actor.joVYStllRo2EM8tM.Item.EM2F8KUn3VzpCe7d], @UUID[Actor.joVYStllRo2EM8tM.Item.m2zjC5VzWSGzDTXC]</p></li><li class=\"rd__li  rd__li-spell\"><p>2nd level (3 slots): @UUID[Actor.joVYStllRo2EM8tM.Item.13HWiARTlZ2vhaIG], @UUID[Actor.joVYStllRo2EM8tM.Item.sEYZGuX9oFuwhryY]</p></li><li class=\"rd__li  rd__li-spell\"><p>3rd level (3 slots): @UUID[Actor.joVYStllRo2EM8tM.Item.N0MDy7gHVp6WO9ZW], @UUID[Actor.joVYStllRo2EM8tM.Item.StNQg2ZwEgz8CRLs], @UUID[Actor.joVYStllRo2EM8tM.Item.EJrnkhKaUi9Z9ujF]</p></li><li class=\"rd__li  rd__li-spell\"><p>4th level (3 slots): @UUID[Actor.joVYStllRo2EM8tM.Item.1xkpqR4DLadfSnde], @UUID[Actor.joVYStllRo2EM8tM.Item.59ZYZXUv7FXYsG2m]</p></li><li class=\"rd__li  rd__li-spell\"><p>5th level (1 slot): @UUID[Actor.joVYStllRo2EM8tM.Item.YLQelBaCaKurPRND]</p></li></ul></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "range": {
+          "units": "",
+          "value": null,
+          "long": null
+        },
+        "save": {
+          "scaling": "flat",
+          "ability": "",
+          "dc": null
+        },
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "prompt": true
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "recharge": {
+          "charged": false,
+          "value": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "ability": null,
+        "actionType": null,
+        "formula": "",
+        "summons": null,
+        "properties": [],
+        "requirements": ""
+      },
+      "ownership": {
+        "default": 0,
+        "cm8ahpcp3la1d2oY": 3
+      },
+      "img": "icons/magic/light/beam-rays-magenta-large.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterSpellcasting",
+          "source": "MM",
+          "hash": "spellcasting_mage%20(familiar)_mm_mm"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "3.1.2",
+        "coreVersion": "11.315",
+        "createdTime": 1722770327713,
+        "modifiedTime": 1722770327713,
+        "lastModifiedBy": "cm8ahpcp3la1d2oY"
+      },
+      "_key": "!actors.items!joVYStllRo2EM8tM.LWGMofKKk0l3W7tF"
+    }
+  ],
+  "effects": [],
+  "folder": "WGVL72rFCOJvKXwu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "cm8ahpcp3la1d2oY": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.1.2",
+    "coreVersion": "11.315",
+    "createdTime": 1722770325628,
+    "modifiedTime": 1722771186468,
+    "lastModifiedBy": "cm8ahpcp3la1d2oY"
+  },
+  "_key": "!actors!joVYStllRo2EM8tM"
+}
