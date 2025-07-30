@@ -1,0 +1,143 @@
+{
+  "id": "modulo-yan-dmdave",
+  "title": "Yan Modulo",
+  "version": "1.1.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12.343",
+    "maximum": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "token-attacher",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "chris-premades",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "tidy5e-sheet",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gambits-premades",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "enhancedcombathud-dnd5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "plutonium-addon-automation",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "polyglot",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "vision-5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "Rideable",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "DmYan",
+      "email": "dungeonmasteryan@gmail.com",
+      "url": "https://github.com/YBraga35/",
+      "discord": "yan_braga35",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "aventuras-dmdave",
+      "label": "Aventuras-DmDave",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "criaturas-yan",
+      "label": "Criaturas Yan",
+      "path": "packs/criaturas-yan",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "aventuras-dmdave-old",
+      "label": "Aventuras-DmDave-Old",
+      "path": "packs/aventuras-dmdave-old",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mapas-czeandpeku",
+      "label": "Mapas-CzeAndPeku",
+      "path": "packs/mapas-czeandpeku",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mapas-tmc",
+      "label": "Mapas-TMC",
+      "path": "packs/mapas-tmc",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Yan Compendium",
+      "sorting": "a",
+      "color": "#004080",
+      "packs": [],
+      "folders": []
+    }
+  ],
+  "manifest": "https://github.com/YBraga35/modulo-yan-dmdave/raw/main/module.json",
+  "download": "https://github.com/YBraga35/modulo-yan-dmdave/archive/refs/heads/main.zip"
+}
