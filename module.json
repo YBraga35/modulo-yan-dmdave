@@ -1,0 +1,50 @@
+{
+  "name": "modulo-yan-dmdave",
+  "title": "Yan Modulo",
+  "description": "Módulo de compêndios com aventuras, criaturas e mapas. Dependências recomendadas: Monk's Active Tiles, Token Attacher, Chris Premades.",
+  "version": "1.1.0-v9",
+  "authors": [
+    {
+      "name": "DmYan",
+      "email": "dungeonmasteryan@gmail.com",
+      "url": "https://github.com/YBraga35/",
+      "discord": "yan_braga35"
+    }
+  ],
+  "compatibility": {
+    "minimum": "9",
+    "verified": "9"
+  },
+  "packs": [
+    {
+      "name": "adventures",
+      "label": "Aventuras-DmDave",
+      "path": "./packs/adventures",
+      "entity": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "criaturas-yan",
+      "label": "Criaturas Yan",
+      "path": "./packs/criaturas-yan",
+      "entity": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "aventuras-dmdave-old",
+      "label": "Aventuras-DmDave-Old",
+      "path": "./packs/aventuras-dmdave-old",
+      "entity": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "mapas-czeandpeku",
+      "label": "Mapas-CzeAndPeku",
+      "path": "./packs/mapas-czeandpeku",
+      "entity": "Scene",
+      "system": "dnd5e"
+    }
+  ],
+  "manifest": "https://github.com/YBraga35/modulo-yan-dmdave/raw/v9-compativel/module.json",
+  "download": "https://github.com/YBraga35/modulo-yan-dmdave/archive/refs/heads/v9-compativel.zip"
+}
